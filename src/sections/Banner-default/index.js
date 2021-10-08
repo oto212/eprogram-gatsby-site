@@ -5,14 +5,13 @@ import SectionTitle from "reusecore/SectionTitle";
 import Button from "reusecore/Button";
 import VintageBox from "reusecore/VintageBox";
 import Particle from "reusecore/Particle";
-import ReactDOM from 'react-dom'
 import ModalVideo from 'react-modal-video'
 import { FaPlay, FaDownload } from "react-icons/fa";
 import BannerSectionWrapper from "./banner.style";
-
+ 
 const BannerDefault = () => {
   const [isOpen, setOpen] = useState(false);
-  return (
+  return ( 
     
     <BannerSectionWrapper>
       <Particle />
