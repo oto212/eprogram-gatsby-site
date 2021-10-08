@@ -1,5 +1,5 @@
 import React from "react";
-
+import { IconContext } from "react-icons";
 import { Container, Row, Col } from "reusecore/Layout";
 import SectionTitle from "reusecore/SectionTitle";
 
@@ -9,6 +9,7 @@ import Icon3 from "assets/images/app/features/03.svg";
 import Icon4 from "assets/images/app/features/04.svg";
 import Icon5 from "assets/images/app/features/05.svg";
 import Icon6 from "assets/images/app/features/06.svg";
+import { BiWalletAlt } from "react-icons/bi";
 
 import FeturesSectionWrapper from "./fetures.style";
 
@@ -17,9 +18,8 @@ const Features = () => {
     <FeturesSectionWrapper id="features">
       <Container fullWidthSM>
         <SectionTitle UniWidth="65%">
-          <h4>Amazing Features</h4>
           <h2>
-            <span>Some of the best features </span> you find in one application.
+          Une plateforme <span>all-in-one</span> 
           </h2>
         </SectionTitle>
         <Row>
@@ -28,10 +28,11 @@ const Features = () => {
               <div className="fetures-icon-block">
                 <img src={Icon1} alt="img" />
               </div>
-              <h3>Business Opurtunity</h3>
+              <h3>Gestion externalisée et simplifiée des conventions
+</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt.
+              Nous prenons en charge vos conventions de A à Z, de la négociation à la livraison des produits à vos collaborateurs. 
+
               </p>
             </div>
           </Col>
@@ -40,10 +41,9 @@ const Features = () => {
               <div className="fetures-icon-block">
                 <img src={Icon2} alt="img" />
               </div>
-              <h3>Data Analysis</h3>
+              <h3>Suivi fournisseurs et service clients dédié</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt.
+              Nos équipes coordonnent les flux avec les différents fournisseurs de produits et de service et accompagnent vos collaborateurs à travers un service clients dédié. 
               </p>
             </div>
           </Col>
@@ -52,10 +52,9 @@ const Features = () => {
               <div className="fetures-icon-block">
                 <img src={Icon3} alt="img" />
               </div>
-              <h3>Engaging Content</h3>
+              <h3>Personnalisation de la plateforme aux couleurs de l'entreprise</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt.
+              Le design de la plateforme est personnalisable et s’habille aux couleurs de votre marque pour faciliter son adoption par vos collaborateurs et être un levier pour votre marque. 
               </p>
             </div>
           </Col>
@@ -64,22 +63,29 @@ const Features = () => {
               <div className="fetures-icon-block">
                 <img src={Icon4} alt="img" />
               </div>
-              <h3>Web Expertise</h3>
+              <h3>Dashboard des metrics RH</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt.
+              Nous réalisons des reportings réguliers de vos programmes de conventions pour vous permettre leur suivi et mentoring. 
               </p>
             </div>
           </Col>
           <Col xs={12} sm={6} md={4}>
             <div className="fetures-block v1">
-              <div className="fetures-icon-block">
-                <img src={Icon5} alt="img" />
-              </div>
-              <h3>App Development</h3>
+            <IconContext.Provider
+      value={{
+        color: "#ffffff",
+        size: "0,5em",
+        className: "fetures-icon-block",
+      }}
+    >
+      <div>
+        <BiWalletAlt />
+      </div>
+    </IconContext.Provider>
+              
+              <h3>Financement des avantages sociaux direct</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt.
+              Nous proposons à vos collaborateurs des solutions de financement avantageuses pour réaliser leurs achats en toute sérénité.
               </p>
             </div>
           </Col>
@@ -88,10 +94,9 @@ const Features = () => {
               <div className="fetures-icon-block">
                 <img src={Icon6} alt="img" />
               </div>
-              <h3>Easy Customized</h3>
+              <h3>Des prix réduits, pour tous.</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt.
+              Que vous soyez une multinationale ou une PME, vous bénéficiez des mêmes prix conventionnés sur notre catalogue de produits et services.
               </p>
             </div>
           </Col>

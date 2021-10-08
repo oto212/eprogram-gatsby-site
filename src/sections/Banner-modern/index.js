@@ -22,23 +22,22 @@ const BannerModern = () => {
               leftAlign={true}
               UniWidth="100%"
             >
-              <h4>30% off for new users for 1 month</h4>
+              
               <h1>
-                Drive Customers Passing Your Appslife With <span>Appion</span>
+              Employee’s perks & benefits,   <span>made simple.</span>
               </h1>
             </SectionTitle>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad
-              minim veniam quis nostrud exercitation.
+            Nous avons la vocation d’aider les entreprises à prendre soin de leurs collaborateurs en leur donnant accès à la première plateforme marocaine d’e-commerce, dédiée aux conventions d’entreprise. Les collaborateurs ont ainsi un accès exclusif à plus de 10 000 produits et services, à prix réduits et livrés chez eux en toute sérénité.
             </p>
             <VintageBox right={true} vintageOne={true}>
               <Button className="banner-btn one">
                 <FaDownload className="icon-left" />
-                Download V1.4
+                Watch the demo 
               </Button>
               <Button className="banner-btn two">
-                <FaPlay className="icon-left" /> Watch Now
+                <FaPlay className="icon-left" /> Know more about eProgram 
+
               </Button>
             </VintageBox>
           </Col>

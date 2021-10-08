@@ -101,6 +101,33 @@ const NavigationWrap =  styled.header`
       }
     }
   }
+  .nav-btn{
+
+
+    position:relative;
+    float:left;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto 
+    width: 100px;
+    font-size: 10px;
+    
+  }
+  .nav-btn.two{
+
+    background: #FFEBEC;
+    color: #FB7B81;
+    &:hover{
+        background: #FB7B81;
+        color: #fff;
+    }
+    
+  }
+  .action_buttons{
+    marging-left:auto;
+    marging-right:auto;
+    float:center;
+  }
   .logo{
     margin-top: 8px;
     transition: all 0.8s cubic-bezier(0.3, 0.8, 0.2, 1) 0s;
@@ -187,6 +214,19 @@ const NavigationWrap =  styled.header`
       right: 3px;
       cursor: pointer;
     }
+    .nav-btn{
+      font-size: 12px;
+      padding: 5px;
+      position:relative;
+      float:center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto 
+
+      
+    }
+
+    
     .nav{
         width: 100%;
       .collapsed {

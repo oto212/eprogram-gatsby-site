@@ -42,9 +42,8 @@ const Faq = () => {
               leftAlign={true}
               UniWidth="100%"
             >
-              <h4>Solution</h4>
               <h2>
-                <span>Easy and perfect solution </span> for this app
+                <span>Facile et efficace  </span>  pour toutes vos conventions
               </h2>
             </SectionTitle>
             <Accordion>
@@ -67,13 +66,7 @@ const Faq = () => {
                 </AccordionItem>
               ))}
             </Accordion>
-            <VintageBox
-              right={true}
-              vintageTwo={true}
-              position="relative"
-            >
-              <Button>Learn More</Button>
-            </VintageBox>
+            
           </Col>
         </Row>
       </Container>

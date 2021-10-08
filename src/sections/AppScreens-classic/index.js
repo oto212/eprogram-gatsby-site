@@ -85,7 +85,7 @@ const AppScreensClassic = () => {
               UniWidth="100%"
               mb={50}
             >
-              <h4>app screens</h4>
+              <h4>La plateforme</h4>
               <h2>
                 <span>See screenshot </span> & engage in this app.
               </h2>

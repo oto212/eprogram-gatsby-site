@@ -71,7 +71,8 @@ const AppScreenSectionWrapper = styled.div`
         }
         .section-title{
             h2{
-                margin-bottom: 42px;
+                font-weight:bolder;
+                
             }
         }
         .app-screen-content-block{
@@ -82,7 +83,7 @@ const AppScreenSectionWrapper = styled.div`
         }
     }
     .app-screen-two-block{
-        padding: 180px 0;
+        padding: 100px 0;
         background: url(${AppSecreenBGTwo}) no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -90,7 +91,13 @@ const AppScreenSectionWrapper = styled.div`
         .section-title{
         h4,h2{
             color: ${props => props.theme.white};
+            
         }
+
+        }
+        p{
+            color:#ffffff;
+            
         }
         .btn-group{
         display: flex;

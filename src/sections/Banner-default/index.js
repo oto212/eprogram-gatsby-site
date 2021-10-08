@@ -1,50 +1,65 @@
-import React from "react";
+import React,{useState} from "react";
 
 import { Container, Row, Col } from "reusecore/Layout";
 import SectionTitle from "reusecore/SectionTitle";
 import Button from "reusecore/Button";
 import VintageBox from "reusecore/VintageBox";
 import Particle from "reusecore/Particle";
-
+import ReactDOM from 'react-dom'
+import ModalVideo from 'react-modal-video'
 import { FaPlay, FaDownload } from "react-icons/fa";
-
 import BannerSectionWrapper from "./banner.style";
 
 const BannerDefault = () => {
+  const [isOpen, setOpen] = useState(false);
   return (
+    
     <BannerSectionWrapper>
       <Particle />
       <Container fullWidthSM>
+
         <Row>
+
           <Col sm={7} md={6} lg={7}>
+
             <SectionTitle
               className="section-title"
               leftAlign={true}
               UniWidth="100%"
             >
-              <h4>30% off for new users for 1 month</h4>
-              <h1>
-                Drive Customers Passing Your Appslife With <span>Appion</span>
+  <h1>
+              Employee’s perks & benefits<br/>
+ <span>made simple.</span>
               </h1>
             </SectionTitle>
+            
+            <React.Fragment>
+			<ModalVideo channel='youtube'  isOpen={isOpen} videoId="-RBOsSmk7H4" onClose={() => setOpen(false)} autoplay/>
+		</React.Fragment>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad
-              minim veniam quis nostrud exercitation.
+            Nous avons la vocation d’aider les entreprises à prendre soin de leurs collaborateurs en leur donnant accès à la première plateforme marocaine de conventions digitalisées, dédiée aux conventions d’entreprise. Les collaborateurs ont ainsi un accès exclusif à plus de 10 000 produits et services, à prix réduits et livrés chez eux en toute sérénité.
+
             </p>
+
             <VintageBox right={true} vintageOne={true}>
-              <Button className="banner-btn one">
+              <Button className="banner-btn one" >
                 <FaDownload className="icon-left" />
-                Download V1.4
+                Rejoignez eProgram
               </Button>
-              <Button className="banner-btn two">
-                <FaPlay className="icon-left" /> Watch Now
+              <Button className="banner-btn " onClick={()=> setOpen(true)} >
+                <FaPlay className="icon-left" /> Voir la démo
               </Button>
+
             </VintageBox>
+
           </Col>
+
         </Row>
+      
       </Container>
+      
     </BannerSectionWrapper>
+    
   );
 };
 

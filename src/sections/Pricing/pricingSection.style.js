@@ -17,6 +17,80 @@ const PricingSectionWrapper = styled.section`
             right: -4%;
         }
     }
+    .domain-search-block{
+        .search-box{
+            position: relative;
+            width: 90%;
+            margin-right:auto;
+            margin-left:auto;
+        }
+        input{
+            height: 70px;
+            margin-bottom:10px
+            border:none;
+            background: #fff;
+            width: 100%;
+            padding: 20px 30px;
+            font-size: 18px;
+            border-radius: 50px;
+            box-shadow: rgba(206, 206, 206, 0.78) 0px 1px 23px -8px;
+        }
+        .src-btn{
+            position: absolute;
+            top: 0;
+            right: -1px;
+            width: 126px;
+            min-width: auto;
+            height: 80px;
+            line-height: 80px;
+            border-radius: 50px;
+            background: ${props => props.theme.primaryColor};
+            color: #fff;
+            svg{
+                font-size: 30px;
+                color: #fff;
+            }
+        }
+        .domain-extention-block{
+         
+            margin-top: 20px;
+            text-align: center;
+            span{
+                cursor: pointer;
+                height: 60px;
+                width: 80px;
+                display: inline-block;
+                border-radius: 8px;
+                box-shadow:  rgba(206, 206, 206, 0.78) 0px 1px 23px -8px;
+                font-size: 15px;
+                text-align: center;
+                line-height: 60px;
+            }
+            span+span{
+                margin-left: 20px;
+            }
+            .com{
+                color: #E7A8CA;
+                box-shadow:  rgba(231, 168, 202, 0.78) 0px 1px 23px -8px;
+            }
+            .org{
+                color: #A29BFE;
+                box-shadow:  rgba(162, 155, 254, 0.78) 0px 1px 23px -8px;
+            }
+            .net{
+                color: #0984E3;
+                box-shadow:  rgba(9, 132, 227, 0.78) 0px 1px 23px -8px;
+            }
+            .dev{
+                color: #AD62AA;
+                box-shadow:  rgba(173, 98, 170, 0.78) 0px 1px 23px -8px;
+            }
+            .xyz{
+                color: #413C69;
+                box-shadow:  rgba(65, 60, 105, 0.78) 0px 1px 23px -8px;
+            }
+        }
+    }
     .pricing-block{
         padding: 60px 60px 55px 60px;
         border: 1px solid ${props => props.theme.primaryLightColor};

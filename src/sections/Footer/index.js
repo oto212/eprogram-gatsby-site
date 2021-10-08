@@ -6,7 +6,7 @@ import { Container, Row, Col } from "reusecore/Layout";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
-import logo from "assets/images/app/footer/footer-logo.png";
+import logo from "assets/images/app/footer/logo_eprogram_white.png";
 import particleOne from "assets/images/app/footer/footer-particle.png";
 
 import FotterWrapper from "./footer.style";
@@ -17,6 +17,7 @@ const Footer = () => {
       <img src={particleOne} className="section__particle one"  alt="appion app landing" />
       <Container>
         <Row>
+        <Col xs={12} sm={6} lg={3}></Col>
           <Col xs={12} sm={6} lg={3}>
             <div className="footer-widgets first">
               <Link className="footer-logo" to="#">
@@ -26,23 +27,19 @@ const Footer = () => {
                 <li>
                   <FiMail />
                   <Link className="anchor" to="#">
-                    contact@appion.com
+                    contact@eprogram.ma
                   </Link>
                 </li>
                 <li>
                   <FiPhoneCall />
                   <Link className="anchor" to="#">
-                    +88 12345 697858
+                    +212 770 70 70 70 
                   </Link>
                 </li>
               </ul>
 
               <ul className="social">
-                <li>
-                  <Link className="anchor" to="#">
-                    <FaFacebookF />
-                  </Link>
-                </li>
+          
                 <li>
                   <Link className="anchor" to="#">
                     <FaTwitter />
@@ -58,7 +55,7 @@ const Footer = () => {
           </Col>
           <Col xs={12} sm={6} lg={3}>
             <div className="footer-widgets">
-              <h3 className="widget-title">Services</h3>
+              <h3 className="widget-title">Offres</h3>
               <ul className="widget-catagory">
                 <li>
                   <Link className="anchor" to="#">
@@ -94,27 +91,27 @@ const Footer = () => {
               <ul className="widget-catagory">
                 <li>
                   <Link className="anchor" to="#">
-                    About Us
+                    Nous
                   </Link>
                 </li>
                 <li>
                   <Link className="anchor" to="#">
-                    Work Portfolio
+                    Nos clients
                   </Link>
                 </li>
                 <li>
                   <Link className="anchor" to="#">
-                    Team
+                    L'équipe
                   </Link>
                 </li>
                 <li>
                   <Link className="anchor" to="#">
-                    Plan & Pricing
+                    Plans & Tarifs
                   </Link>
                 </li>
                 <li>
                   <Link className="anchor" to="#">
-                    Company News
+                    Nouveautés
                   </Link>
                 </li>
               </ul>
@@ -122,11 +119,11 @@ const Footer = () => {
           </Col>
           <Col xs={12} sm={6} lg={3}>
             <div className="footer-widgets">
-              <h3 className="widget-title">Our Address</h3>
+              <h3 className="widget-title">Nous trouver</h3>
               <p>
-                1370 Roosevelt Street, <br />
-                Little York City, New Jersey <br />
-                08834
+                250 avenue de Bordeaux, <br />
+                Casablanca, Maroc <br />
+                
               </p>
             </div>
           </Col>
@@ -157,9 +154,9 @@ const Footer = () => {
           <p className="copyright-text">
             Copyright @
             <Link className="anchor" to="#">
-              Devscorn 
+              Novdisty 
             </Link>
-             | All Right Reserved 2020
+             | Tous droits réservés 2021
           </p>
         </div>
       </Container>

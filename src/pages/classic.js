@@ -26,7 +26,7 @@ const ClassicPage = () => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Layout>
-      <SEO title="Appion Gatsby Home" />
+      <SEO title="eProgram Perks and More" />
       <Navigation />
       <BannerClassic />
       <AboutClassic />

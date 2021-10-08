@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "gatsby"
 import { Container, Row, Col } from "reusecore/Layout";
 import SectionTitle from "reusecore/SectionTitle";
 import Button from "reusecore/Button";
@@ -82,12 +82,12 @@ const AppScreens = () => {
                   leftAlign={true}
                   UniWidth="100%"
                 >
-                  <h4>App Screens</h4>
+  
                   <h2>
-                    <span>See screenshot </span> & engage in this app.
+                    Bénéficiez d’une gestion intégrée de vos <span>conventions </span>
                   </h2>
                 </SectionTitle>
-                <Button>View on Goole Play</Button>
+                <Button>Demandez une démo</Button>
               </div>
             </Col>
             <Col className="app-screen-slider-block" xs={12} lg={6}>
@@ -119,18 +119,22 @@ const AppScreens = () => {
                   UniWidth="100%"
                 >
                   {" "}
-                  <h4>App Screens</h4>
+               
                   <h2>
-                    <span>See screenshot</span> & engage in this app.
-                  </h2>
+                  Bénéficiez d’une gestion intégrée de vos conventions
+                    </h2>
+
                 </SectionTitle>
+                <p>Pour réserver leur prochain voyage, équiper leur cuisine ou s’offrir un cadeau high-tech, donnez à vos collaborateurs l’accès à une plateforme globale pour gérer les conventions de A à Z. </p>
                 <div className="btn-group">
+                 <Link to="#pricing">
                   <Button className="btn-outline one">
-                    View on Google Play
-                  </Button>
+                    Demandez une démo
+                  </Button></Link>
+                  <Link to="https://eprogram.store/account/login">
                   <Button className="btn-outline two">
-                    View on App Store
-                  </Button>
+                    Connectez vous
+                  </Button></Link>
                 </div>
             </Col>
           </Row>

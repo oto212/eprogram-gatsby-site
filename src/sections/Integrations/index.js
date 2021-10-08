@@ -6,55 +6,44 @@ import SectionTitle from "reusecore/SectionTitle";
 import Button from "reusecore/Button";
 import VintageBox from "reusecore/VintageBox";
 
-import integrationImage1 from "assets/images/app/integrations/integration-1.png";
-import integrationImage2 from "assets/images/app/integrations/integration-2.png";
-import integrationImage3 from "assets/images/app/integrations/integration-3.png";
-import integrationImage4 from "assets/images/app/integrations/integration-4.png";
+
 import Icon from "assets/images/app/integrations/arrow.png";
-
+import Client from "sections/Client";
 import IntegrationItemWrapper from "./integrationSection.style";
-
+import { FcShop, FcGraduationCap, FcLandscape, FcBusiness } from "react-icons/fc";
 const Integrations = () => {
   return (
-    <IntegrationItemWrapper>
+    <IntegrationItemWrapper id="integrations">
       <Container>
         <Row Vcenter={true}>
           <Col xs={12} sm={6}>
             <div className="integration__block__wrap">
               <div className="integration__block">
                 <div className="integration__block__inner">
-                  <img src={integrationImage1} alt="appion integration" />
-                  <h3>Mail Chimp</h3>
-                  <p>Send Emails</p>
-                  <Link to="#">
-                    <img src={Icon} alt="appion app" />
-                  </Link>
+                  
+                  <h3><FcShop/> Store</h3>
+                  <p>Tous le nécessaire pour votre Maison, Voiture, ou équipement,Jeux et jouets ...</p>
+
                 </div>
                 <div className="integration__block__inner">
-                  <img src={integrationImage2} alt="appion integration" />
-                  <h3>Instagram</h3>
-                  <p>News Feed</p>
-                  <Link to="#">
-                    <img src={Icon} alt="appion app" />
-                  </Link>
+                  
+                  <h3><FcLandscape/> eTravel</h3>
+                  <p>Des hôtels et logements de vacances dans tous le Maroc à prix conventionné</p>
+
                 </div>
               </div>
               <div className="integration__block right">
                 <div className="integration__block__inner">
-                  <img src={integrationImage3} alt="appion integration" />
-                  <h3>Slack</h3>
-                  <p>Messaging</p>
-                  <Link to="#">
-                    <img src={Icon} alt="appion app" />
-                  </Link>
+                  
+                  <h3><FcGraduationCap/> Services</h3>
+                  <p>Assurances, Crédits, Immobilier , Culture, Scolarité ... </p>
+
                 </div>
                 <div className="integration__block__inner">
-                  <img src={integrationImage4} alt="appion integration" />
-                  <h3>twitter</h3>
-                  <p>News Feed</p>
-                  <Link to="#">
-                    <img src={Icon} alt="appion app" />
-                  </Link>
+                  
+                  <h3><FcBusiness/> Vos conventions</h3>
+                  <p> Digitalisation du process de déploiement de <span> vos conventions </span>  existantes </p>
+
                 </div>
               </div>
             </div>
@@ -65,26 +54,26 @@ const Integrations = () => {
               leftAlign={true}
               UniWidth="100%"
             >
-              <h4>Integration</h4>
+              
 
               <h2>
-                <span>Uses for this app </span> In the perfect integration.
+              Plus de  <span>50  </span> marques partenaires allant jusqu'à <span>-40%  </span>
               </h2>
             </SectionTitle>
             <p className="integration-text">
-              One differences leaders, management-science so, best treat. Still
-              problems upper and anger devoting out. With hiding their boss
-              phase drops. A strenuous in ticket get write it by proposal.
+            eProgram donne accès à des offres exclusives sur plus de 50 marques partenaires, soit un catalogue de plus de 1 800 produits (électroménager, High-Tech, téléphonie, jouets, cosmétique, …) et une large gamme de services, allant de la réservation d’hôtels à l’assurance. 
+
             </p>
             <VintageBox
               right={true}
               vintageTwo={true}
               position="relative"
             >
-              <Button className="integration-btn">Learn More</Button>
+              <Button className="integration-btn">Demandez le catalogue</Button>
             </VintageBox>
           </Col>
         </Row>
+        <Client />
       </Container>
     </IntegrationItemWrapper>
   );

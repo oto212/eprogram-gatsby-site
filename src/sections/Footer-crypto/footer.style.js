@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import FooterBG from 'assets/images/crypto/footer-bg.png';
 
 const FotterWrapper = styled.footer`
-  padding-top: 250px;
-  padding-bottom: 45px;
+  padding-top: 100px;
+  padding-left:100px;
   background: url(${FooterBG});
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,7 +41,7 @@ const FotterWrapper = styled.footer`
     }
   }
   .footer-logo {
-    margin-bottom: 15px;
+    margin-top:-20px;
     display: block;
   }
   .footer-widgets {
@@ -58,7 +58,7 @@ const FotterWrapper = styled.footer`
     .info {
       font-size: 18px;
       line-height: 38px;
-      margin-bottom: 32px;
+      
       li {
         display: flex;
         align-items: center;
@@ -107,8 +107,8 @@ const FotterWrapper = styled.footer`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 50px;
-    margin-top: 100px;
+    padding-top: 10px;
+    margin-top: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     .footer-menu{
       order: 2;

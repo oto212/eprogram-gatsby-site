@@ -10,15 +10,17 @@ const Contact = () => {
   return (
     <ContactWrapper id="contact">
       <SectionTitle className="section-title" UniWidth="55%">
-        <h4>Contact Us</h4>
+        <h4>Keep in touch </h4>
         <h2>
-          <span>Drope your mail address </span> for next update.
+          <span> Laissez nous vos coordonnées</span> nous vous contacterons.
         </h2>
       </SectionTitle>
       <Container>
         <form name="contactform" method="post" action="#">
           <input type="email" placeholder="Enter your Email" />
-          <Button>Send Now</Button>
+          <input type="text" placeholder="Nom de votre entreprise" />
+          <input type="telephone" placeholder="Téléphone" />
+          <Button> Contactez moi !</Button>
         </form>
       </Container>
     </ContactWrapper>

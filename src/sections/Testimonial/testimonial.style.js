@@ -79,6 +79,11 @@ const TestimonialWrapper = styled.section`
         right: 28%;
         top: 42%;
       }
+      &:nth-child(7) {
+      
+        right: 8%;
+        top: 42%;
+      }
       img {
         height: 98px;
         width: 98px;

@@ -14,7 +14,7 @@ import { Container, Row, Col } from "reusecore/Layout";
 import Button from "reusecore/Button";
 import Particle from "reusecore/Particle";
 
-import logo from "assets/images/app/footer/footer-logo-two.png";
+import logo from "assets/images/app/footer/logo_eprogram_white.png";
 
 import FooterBGTwo from "assets/images/app/footer/footer-particle-two.png";
 

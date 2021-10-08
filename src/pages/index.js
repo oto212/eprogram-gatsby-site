@@ -17,8 +17,8 @@ import Testimonial from 'sections/Testimonial';
 import News from 'sections/News';
 import Getapp from 'sections/Getapp';
 import Contact from 'sections/Contact';
-import Footer from 'sections/Footer';
-
+import Footer from 'sections/Footer-crypto';
+import Client from 'sections/Client';
 import { GlobalStyle } from 'sections/app.style';
 import theme from 'theme/app/themeStyles';
 
@@ -26,20 +26,19 @@ const IndexPage = () => (
   <ThemeProvider theme={theme}> 
     <GlobalStyle />
      <Layout>
-      <SEO title="Appion Gatsby Home" />
+      <SEO title="eProgram" />
       <Navigation />
       <Banner />
-      <About />
-      <Integrations />
-      <Features />
-      <AppScreens />
       <Counters /> 
-      <Pricing />
+      <About />
+      <Features />
+      <Integrations />
+      <AppScreens />
+      
+      
       <Testimonial />
       <Faq />
-      <Getapp />
-      <News />
-      <Contact />
+      <Pricing />
       <Footer />
     </Layout>
   </ThemeProvider>

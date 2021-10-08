@@ -37,6 +37,7 @@ const FotterWrapper = styled.section`
     }
   }
   .footer-logo {
+    
     margin-bottom: 15px;
     display: block;
   }

@@ -30,7 +30,9 @@ const ButtonStyle = styled.button`
     .icon-right{
         margin-left: 8px;
     }
-
+    .header{
+        padding: 10px;
+    }
     ${props => props.primary && css`
         color: ${props.theme.primaryLightColor};
         background: ${props.theme.primaryColor};

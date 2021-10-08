@@ -29,7 +29,7 @@ const FaqClassic = () => {
       <Container fullWidthSM>
         <SectionTitle className="section-title" UniWidth="80%">
           <h2>
-            <span>Easy and perfect solution </span> for this app
+            <span>Une solution facile et intégrée </span> pour toutes vos conventions
           </h2>
         </SectionTitle>
         <Row Vcenter={true}>

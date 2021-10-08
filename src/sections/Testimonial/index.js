@@ -47,9 +47,8 @@ const Testimonial = () => {
         <Row>
           <Col xs={12}>
             <SectionTitle leftAlign={true} className="testmonial__heading">
-              <h4>Testimonial</h4>
               <h2>
-                <span>What our client says </span> about us
+                <span>Découvrez ce que nos</span> clients disent de nous
               </h2>
             </SectionTitle>
             <SlickSlider {...settings} className="testimonial__slider">

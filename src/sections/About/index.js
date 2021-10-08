@@ -32,27 +32,21 @@ const About = () => {
               UniWidth="100%"
             >
               {" "}
-              <h4>About us</h4>
+            
               <h2>
-                <span>Starting with appion</span> is easier than anything.
+                <span>Notre vocation,  
+</span> prendre soin de vos collaborateurs.
               </h2>
             </SectionTitle>
             <p className="about-text text-one">
-              One differences leaders, management-science so, best treat. Still
-              problems upper and anger devoting out. With hiding their boss
-              phase drops. A strenuous in ticket get write it by proposal.
+            eProgram est né de la volonté d’accompagner les dirigeants d’entreprise et les équipes ressources humaines à déployer efficacement les conventions d’entreprises. En plus de proposer un large catalogue d’offres et de services à prix exclusifs, nous prenons le relai pour négocier et mettre en place vos conventions cibles. 
+
             </p>
             <p className="about-text text-two">
-              Thought. Road, clearly, and software the shreds sisters contract,
-              luxury and fully here
+            Nous collaborons avec plus de 64 grandes entreprises au Maroc. Plus de 320 000 collaborateurs bénéficient des avantages eProgram. 
+
             </p>
-            <VintageBox
-              right={true}
-              vintageTwo={true}
-              position="relative"
-            >
-              <Button>Learn More</Button>
-            </VintageBox>
+            
           </Col>
         </Row>
       </Container>

@@ -1,17 +1,21 @@
 import styled from 'styled-components';
 
-import imgHero from 'assets/images/app/hero/hero.png';
+import imgHero from 'assets/images/app/hero/hero2.png';
 
 const BannerSectionWrapper = styled.section`
     padding: 190px 0 120px 0;
-    margin: 80px 0 0 0;
+    margin: 00px 0 0 0;
     background: url(${imgHero}) no-repeat;
     background-size: 50%;
-    background-position: center right 35px;
+    background-position: center right 15px;
+    .video {
+        float:right;
+        
+    }
     p{
         font-size: 16px;
         font-weight: 300; 
-        margin: 0 0 70px 0;
+        margin: 0 0 40px 0;
     }
     h4{
         margin-bottom: 8px;
@@ -32,7 +36,7 @@ const BannerSectionWrapper = styled.section`
         
     }
     .banner-btn.one{
-        background: #8A57DE;
+        
         color: #fff;
         &:hover{
             background: #EEE6FA;

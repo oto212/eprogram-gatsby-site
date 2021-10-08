@@ -18,7 +18,7 @@ const FeturesSectionWrapper = styled.section`
         margin-bottom: 25px;
         position: relative;
 
-        img{
+        img {
             display: block;
             margin: 0 auto;
         }
