@@ -103,18 +103,16 @@ const NavigationWrap =  styled.header`
   }
   .nav-btn{
 
-
+    padding: 10px;
     position:relative;
     float:left;
     display: flex;
-    margin-left: auto;
-    margin-right: auto 
     width: 100px;
-    font-size: 10px;
+    font-size: 12px;
     
   }
   .nav-btn.two{
-
+    marging-left: 15px;
     background: #FFEBEC;
     color: #FB7B81;
     &:hover{
