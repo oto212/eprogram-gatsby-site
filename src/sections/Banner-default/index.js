@@ -8,7 +8,7 @@ import Particle from "reusecore/Particle";
 import ModalVideo from 'react-modal-video'
 import { FaPlay, FaDownload } from "react-icons/fa";
 import BannerSectionWrapper from "./banner.style";
- 
+import ModalvideoWrapper from "./modal.style";
 const BannerDefault = () => {
   const [isOpen, setOpen] = useState(false);
   return ( 
@@ -31,10 +31,11 @@ const BannerDefault = () => {
  <span>made simple.</span>
               </h1>
             </SectionTitle>
-            
+            <ModalvideoWrapper>
             <React.Fragment>
-			<ModalVideo channel='youtube'  isOpen={isOpen} videoId="-RBOsSmk7H4" onClose={() => setOpen(false)} autoplay/>
-		</React.Fragment>
+              <ModalVideo channel='youtube' isOpen={isOpen} videoId="-RBOsSmk7H4" onClose={() => setOpen(false)} autoplay />
+            </React.Fragment>
+            </ModalvideoWrapper>
             <p>
             Nous avons la vocation d’aider les entreprises à prendre soin de leurs collaborateurs en leur donnant accès à la première plateforme marocaine de conventions digitalisées, dédiée aux conventions d’entreprise. Les collaborateurs ont ainsi un accès exclusif à plus de 10 000 produits et services, à prix réduits et livrés chez eux en toute sérénité.
 
