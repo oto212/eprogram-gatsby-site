@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-
+import { navigate } from "gatsby"
 import { Container, Row, Col } from "reusecore/Layout";
 import SectionTitle from "reusecore/SectionTitle";
 import Button from "reusecore/Button";
@@ -42,10 +42,14 @@ const BannerDefault = () => {
             </p>
 
             <VintageBox right={true} vintageOne={true}>
-              <Button className="banner-btn one" >
+
+              <Button className="banner-btn one" onClick={()=>{navigate("#pricing")}}>
+            
                 <FaDownload className="icon-left" />
                 Rejoignez eProgram
+             
               </Button>
+       
               <Button className="banner-btn " onClick={()=> setOpen(true)} >
                 <FaPlay className="icon-left" /> Voir la démo
               </Button>

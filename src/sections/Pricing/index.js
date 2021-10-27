@@ -27,57 +27,41 @@ const Pricing = () => {
             />
           </Col>
           <Col xs={12} sm={6} className="about-content-wrap">
-           
+
             <div className="pricing-block">
-            <SectionTitle
-              className="section-title"
-              leftAlign={true}
-              UniWidth="100%"
-            >
-            
-            
-              
-               <center> <h3><span>Rejoignez
-</span> la communauté eProgram</h3></center>
-              
-            </SectionTitle>
-                <br/>
-                <div className="details-block">
+              <SectionTitle
+                className="section-title"
+                leftAlign={true}
+                UniWidth="100%"
+              >
+                <center> <h3><span>Rejoignez
+                </span> la communauté eProgram</h3></center>
+
+              </SectionTitle>
+              <br />
+
+              <div className="details-block">
+              <form method="post" action="https://getform.io/f/63b24b1c-84ee-4678-b1ee-a303a5d91467">
+
+                <div className="domain-search-block">
+                  <div className="search-box">
+                    <input type='text' placeholder='Nom et Prénom' name="name" required/>
+                    <input type='text' placeholder="Nom de l'entreprise"  name="company" required/>
+                    <input type='text' placeholder="Fonction dans l'entreprise" name="job_title" required/>
+                    <input type='email' placeholder='Email Professionnel'  name="email" required/>
+                    <input type='telephone' placeholder='Numéro de téléphone' name="telephone" required/>
+                   <input type='text' placeholder='Nombre de collaborateurs ' name="nb_collaborateurs" required/>
+
+                  </div>
                  
-
-                    <div className="domain-search-block">
-              <div className="search-box">
-                <input type='text' placeholder='Nom et Prénom' />
-                <input type='text' placeholder="Nom de l'entreprise" />
-                <input type='text' placeholder="Fonction dans l'entreprise" />
-                <input type='text' placeholder='Email Professionnel' />
-                <input type='telephone' placeholder='Numéro de téléphone'/>
-
-              </div>
-              <span >
-
-Nombre d'employé dans l'entreprise
-</span>
-              <div className="domain-extention-block">
-
-                <span className="org">
-                  -50
-                </span>
-                <span className="net">
-                  50-199
-                </span>
-                <span className="dev">
-                  200-1999
-                </span>
-                <span className="xyz">
-                  +2000
-                </span>
-              </div>
-            </div>
+                  
                 </div>
                 <Button className="pricing-btn">Soumettre</Button>
+                </form>
               </div>
-
+              
+            </div>
+          
 
           </Col>
         </Row>

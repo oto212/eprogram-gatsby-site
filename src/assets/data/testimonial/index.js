@@ -39,7 +39,7 @@ const data = {
     },
     {
         quote:
-          'This app is on one assistant statement caught agency, the atprior from peace counter. A to is home, between history; With the headline is an the narrow size part. In ride ourselves,you to out',
+          'Eprogram est une plateforme que je considère comme la solution de convention principale pour moi. Autant que RH et employée elle me permet de trouver toutes sortes de produits et services à des prix très compétitifs dans une seule plateforme. Je suis très addict aux produits électroniques et électroménagers.',
         author: 'Nahid',
         dsignation: 'DRH',
         thumb: image5

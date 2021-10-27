@@ -109,6 +109,7 @@ const NavigationWrap =  styled.header`
     display: flex;
     width: 100px;
     font-size: 12px;
+    margin-left:10px;
     
   }
   .nav-btn.two{
