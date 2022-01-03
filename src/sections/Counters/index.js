@@ -31,7 +31,7 @@ const Counters = () => {
           <Col xs={12} sm={6} lg={3}>
             <div className="counter__item">
                 <Counter end={25} suffix="M+"  />
-              <p>Motant économisé (dh)</p>
+              <p>Montant économisé  (dh)</p>
             </div>
           </Col>
         </Row>

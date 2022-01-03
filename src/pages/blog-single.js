@@ -10,14 +10,18 @@ import Footer from "sections/Footer"
 
 import { GlobalStyle } from "sections/app.style"
 import theme from "theme/blog/themeStyles"
+import Registration from "../sections/Registration-cfca"
 
 const BlogSinglePage = () => (
   <ThemeProvider theme={theme}>
     <Layout>
       <GlobalStyle />
-      <SEO title="Appion Gatsby Home" />
+      <SEO title="eProgram  / Enregistrement Adhérent CFC" />
       <Navigation />
-      <BlogSingle />
+      
+      <br/>
+      <Registration/>
+
       <Footer />
     </Layout>
   </ThemeProvider>
