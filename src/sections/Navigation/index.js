@@ -36,7 +36,7 @@ const Navigation = () => {
       <Container>
         <div className="navbar-wrap">
           <Link to="#" className="logo">
-            <img src={logo} alt="prime app landing" />
+            <img src={logo} alt="Logo eProgram" />
           </Link>
           <nav className="nav">
             <FaBars
@@ -49,7 +49,7 @@ const Navigation = () => {
             />
                
           </nav>
-          <div class="action_button">
+          <div className="action_button">
           <Link to="https://eprogram.store/account/register" >
            <Button className="nav-btn two">
                 <FiActivity className="icon-left" />

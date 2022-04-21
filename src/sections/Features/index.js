@@ -74,7 +74,7 @@ const Features = () => {
             <IconContext.Provider
       value={{
         color: "#ffffff",
-        size: "0,5em",
+        size: "0.5em",
         className: "fetures-icon-block",
       }}
     >

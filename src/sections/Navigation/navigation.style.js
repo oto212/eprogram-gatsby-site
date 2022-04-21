@@ -53,6 +53,7 @@ const NavigationWrap =  styled.header`
       padding: 0;
       list-style: none;
       display: flex;
+      
     }
     li{
         position: relative;
@@ -103,17 +104,16 @@ const NavigationWrap =  styled.header`
   }
   .nav-btn{
 
-    padding: 10px;
-    position:relative;
+    padding: 5px;
     float:left;
     display: flex;
-    width: 100px;
-    font-size: 12px;
-    margin-left:10px;
+    max-width: 100px;
+    font-size: 10px;
+    margin-left:5px;
     
   }
   .nav-btn.two{
-    marging-left: 15px;
+    marging-left: 5px;
     background: #FFEBEC;
     color: #FB7B81;
     &:hover{
@@ -125,7 +125,7 @@ const NavigationWrap =  styled.header`
   .action_buttons{
     marging-left:auto;
     marging-right:auto;
-    float:center;
+   
   }
   .logo{
     margin-top: 8px;
@@ -199,32 +199,35 @@ const NavigationWrap =  styled.header`
     .navbar-wrap{
         display: block;
         position: relative;
+        text-align:center;
     }
     .logo {
       width: 100%;
-      display: block;
       margin: 7px 0 0 0;
       img{width: 110px;}
+
+
+      
     }
     .mobile-menu-icon {
       display: inline-block;
       position: absolute;
       top: 8px;
-      right: 3px;
+      left: 3px;
       cursor: pointer;
-    }
-    .nav-btn{
-      font-size: 12px;
-      padding: 5px;
-      position:relative;
-      float:center;
-      display: block;
-      margin-left: auto;
-      margin-right: auto 
-
       
     }
-
+    .nav-btn{
+      display: inline-block;
+      font-size: 12px;
+      position:absolute;
+      top: 8px;
+      right: 3px;
+    }
+  .action_button{
+    max-width:100px;
+    
+  }
     
     .nav{
         width: 100%;
@@ -236,16 +239,20 @@ const NavigationWrap =  styled.header`
         transition: 450ms all ease-in-out;
         overflow: hidden;
         max-height: 0;
+        
+        
 
         &.is-expanded {
           padding-top: 15px;
           overflow-y: auto;
           max-height: 250px; /* approximate max height */
+          
         }
         li {
           padding: 0;
           margin: 0px 0px;
           width: 100%;
+          text-align:left;
           .dropdown{
             li{
               a{

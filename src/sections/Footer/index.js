@@ -33,7 +33,7 @@ const Footer = () => {
                 <li>
                   <FiPhoneCall />
                   <Link className="anchor" to="#">
-                    +212 770 70 70 70 
+                   +212 070 111 0990
                   </Link>
                 </li>
               </ul>
@@ -156,7 +156,7 @@ const Footer = () => {
             <Link className="anchor" to="#">
               Novdisty 
             </Link>
-             | Tous droits réservés 2021
+             | Tous droits réservés 2022
           </p>
         </div>
       </Container>
