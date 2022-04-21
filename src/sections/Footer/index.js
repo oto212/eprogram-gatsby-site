@@ -27,13 +27,13 @@ const Footer = () => {
                 <li>
                   <FiMail />
                   <Link className="anchor" to="#">
-                    contact@eprogram.ma
+                    contact@eprogram. ma
                   </Link>
                 </li>
                 <li>
                   <FiPhoneCall />
                   <Link className="anchor" to="#">
-                   +212 070 111 0990
+                   +212 070 111 0990 
                   </Link>
                 </li>
               </ul>

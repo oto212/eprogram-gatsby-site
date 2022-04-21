@@ -29,7 +29,7 @@ const Footer = () => {
                 <li>
                   <FiPhoneCall />
                   <Link className="anchor" to="#">
-                    +212770707070
+                  +212 070 111 0990
                   </Link>
                 </li></ul>
                 </Col>
