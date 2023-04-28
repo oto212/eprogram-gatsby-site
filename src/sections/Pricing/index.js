@@ -63,7 +63,7 @@ const customStyles = {
 
 
 const Pricing = () => {
-  const [selectOption, setSelectOption] = useState({ value: "Employee", label: "Employee" });
+  const [selectOption, setSelectOption] = useState({ value: "Employé", label: "Employé" });
   const [loading, setLoading] = useState(false);
   const JoinFormAnimation = useAnimation();
   const [ref, inView] = useInView();
