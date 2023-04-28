@@ -1,16 +1,20 @@
 import styled from 'styled-components';
 
 const NavigationWrap =  styled.header`
-    background: transparent;
     position: fixed;
     width: 100%;
-    z-index: 9999;
+    z-index: 99;
     top: 0;
     transition: all 0.3s ease 0s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   .navbar-wrap{
+    // background-color: red;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
   .mobile-menu-icon {
@@ -18,7 +22,6 @@ const NavigationWrap =  styled.header`
     color: #1D316C;
     font-size: 24px;
   }
-
   /*Drop down style*/ 
   .dropdown{
     background: #fff;
@@ -103,42 +106,48 @@ const NavigationWrap =  styled.header`
     }
   }
   .nav-btn{
-
-    padding: 5px;
+    padding-block: 10px;
+    padding-inline: 20px;
     float:left;
     display: flex;
-    max-width: 100px;
-    font-size: 10px;
-    margin-left:5px;
+    flex-direction: row;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+  }
     
   }
   .nav-btn.two{
-    marging-left: 5px;
-    background: #FFEBEC;
-    color: #FB7B81;
+    display: flex;
+    background: rgb(0,0,0,0);
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    color: ${props => props.theme.primaryLightColor};
     &:hover{
-        background: #FB7B81;
-        color: #fff;
+        color: #2A6FD4;
     }
     
   }
-  .action_buttons{
-    marging-left:auto;
-    marging-right:auto;
-   
+  .action_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px
   }
   .logo{
-    margin-top: 8px;
+    margin-top: 10px;
     transition: all 0.8s cubic-bezier(0.3, 0.8, 0.2, 1) 0s;
     img{
-      width: 135px;
+      width: 160px;
     }
   }
   &.scrolled{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 30px;
-    background: white;
+    background-color: white;
     .logo{
-        width: 100px;
+        width: 160px;
     } 
     .nav{
       li{
@@ -159,13 +168,50 @@ const NavigationWrap =  styled.header`
       }
     }
   }
-
-
-  @media only screen and (max-width: 912px) {
+  @media only screen and (max-width: 1280px) {
+    .logo{
+      margin-top: 10px;
+      transition: all 0.8s cubic-bezier(0.3, 0.8, 0.2, 1) 0s;
+      img{
+        width: 130px;
+        height: auto;
+      }
+    }
+    .nav{
+      li{
+        padding-inline: 15px;
+        a {
+          color: #1D316C;
+          &:hover{
+            color: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : '#FB7B81'};
+          }
+        }
+      }
+    }
+    &.scrolled{
+      .nav{
+        li{
+          padding-inline: 15px;
+          a {
+            color: #1D316C;
+            &:hover{
+              color: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : '#FB7B81'};
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 992px) {
     height: auto;
     min-height: 50px;
     padding: 15px 20px;
-    background: #fff;
+    &.nav-expanded {
+      background: #fff;
+      box-shadow: 0px 6px 7px 1px rgba(217,214,214,0.67);
+      -webkit-box-shadow: 0px 6px 7px 1px rgba(217,214,214,0.67);
+      -moz-box-shadow: 0px 6px 7px 1px rgba(217,214,214,0.67);
+    }
     &.scrolled{
         padding: 8px 20px;
         .nav .collapsed {
@@ -197,16 +243,14 @@ const NavigationWrap =  styled.header`
       box-shadow: none;
     }
     .navbar-wrap{
+        justify-content: between;
         display: block;
         position: relative;
         text-align:center;
     }
     .logo {
       width: 100%;
-      margin: 7px 0 0 0;
-      img{width: 110px;}
-
-
+      img{margin-top: 7px;width: 110px;}
       
     }
     .mobile-menu-icon {
@@ -217,12 +261,8 @@ const NavigationWrap =  styled.header`
       cursor: pointer;
       
     }
-    .nav-btn{
-      display: inline-block;
-      font-size: 12px;
-      position:absolute;
-      top: 8px;
-      right: 3px;
+    #wide-nav{
+      display: none;
     }
   .action_button{
     max-width:100px;
@@ -241,11 +281,10 @@ const NavigationWrap =  styled.header`
         max-height: 0;
         
         
-
         &.is-expanded {
           padding-top: 15px;
           overflow-y: auto;
-          max-height: 250px; /* approximate max height */
+          max-height: 300px; /* approximate max height */
           
         }
         li {
@@ -272,7 +311,6 @@ const NavigationWrap =  styled.header`
       }
     }
   }
-
 `
 
 export default NavigationWrap;

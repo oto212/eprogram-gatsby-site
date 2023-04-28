@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
-import { FaBars , FaSignInAlt} from "react-icons/fa"
-import { FiActivity } from "react-icons/fi";
+import { FaBars } from "react-icons/fa"
 import { Container } from "reusecore/Layout"
-import logo from "assets/images/app/logo_eprogram.png"
+import logo from "assets/images/app/logo_eprogram.webp"
 
 import Data from "./utility/data.js"
 import ScrollspyMenu from "./utility/ScrollspyMenu.js"
@@ -12,7 +11,7 @@ import NavigationWrap from "./navigation.style"
 import Button from "reusecore/Button";
 
 
-const Navigation = () => {
+const Navigation = ({ modalOpen, setModalOpen }) => {
   const [expand, setExpand] = useState(false)
 
   useEffect(() => {
@@ -32,11 +31,11 @@ const Navigation = () => {
   }, [])
 
   return (
-    <NavigationWrap id="navbar"  className="nav-block">
-      <Container>
+    <NavigationWrap id="navbar" className={`nav-block ${expand ? "nav-expanded" : ""}`}>
+      <Container >
         <div className="navbar-wrap">
-          <Link to="#" className="logo">
-            <img src={logo} alt="Logo eProgram" />
+          <Link to="/" className="logo">
+            <img loading="lazy" src={logo} alt="Logo eProgram" />
           </Link>
           <nav className="nav">
             <FaBars
@@ -46,24 +45,18 @@ const Navigation = () => {
             <ScrollspyMenu
               className={`collapsed ${expand ? "is-expanded" : ""}`}
               menuItems={Data.menuItems}
+              expand={expand}
+              modalOpen={modalOpen}
+              setModalOpen={setModalOpen}
             />
-               
           </nav>
           <div className="action_button">
-          <Link to="https://eprogram.store/account/register" >
-           <Button className="nav-btn two">
-                <FiActivity className="icon-left" />
-                Activer mon compte
-              </Button></Link>
-              <Link to="https://eprogram.store/account/login" >
-          <Button className="nav-btn">
-                <FaSignInAlt className="icon-left" />
-                Login
+            {!expand &&
+              <Button id="wide-nav" onClick={() => setModalOpen(true)} className="nav-btn">
+                <span>Accéder à eProgram</span>
               </Button>
-             </Link>
-             </div>
-
-            
+            }
+          </div>
         </div>
       </Container>
     </NavigationWrap>

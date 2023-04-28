@@ -1,18 +1,43 @@
 import styled from 'styled-components';
-
-import Bg1 from 'assets/images/app/features/bg-1.png';
-import Bg2 from 'assets/images/app/features/bg-2.png';
-
-import Vintage1 from 'assets/images/app/features/vintage-1.png';
-import Vintage2 from 'assets/images/app/features/vintage-2.png';
+import BannerMobile from '../../assets/images/banner_mobile.webp'
+import Banner from '../../assets/images/poto.png'
 
 
 const FeturesSectionWrapper = styled.section`
-   padding: 95px 0 50px 0;
+   padding: 70px 0 50px 0;
+   .banner-image {
+        background: url(${Banner});
+        padding-inline: 13%;
+        padding-block: 30px;
+        border-radius : 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;  
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom : 70px;
+        h2{
+            color: white;
+            font-size: 28px; 
+            margin-bottom: 10px;
+            font-weight: 900;
+            line-height: 30px;
+        }
+        h3{
+            color: white;
+            font-size: 24px; 
+            font-weight: 700;
+            line-height: 30px;
+            text-align: center;
+        }
+   }
   
    .fetures-icon-block{
-        height: 70px;
-        width: 70px;
+        height: 80px;
+        width: 80px;
         display: flex;
         align-items: center;
         margin-bottom: 25px;
@@ -21,19 +46,39 @@ const FeturesSectionWrapper = styled.section`
         img {
             display: block;
             margin: 0 auto;
+            object-fit: contain;
         }
         
    }
     .fetures-block{
-        
+        display: flex;
+        // -webkit-flex: 0 0 33.333333%;
+        flex-direction: row;
+        gap: 15px;
+        .data_wrapper {
+            max-width: calc(100% - 60px)!important;
+            p {
+                font-weight: 500;
+                font-size: 15px;
+            }
+        }
         .fetures-icon-block{
+            width: 50px;
+            height: 50px;
+            img {
+                float: left;
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+                margin-top: -20px;
+            }
             &:before{
                 position: absolute;
                 display: inline-block;
                 top: -3px;
                 right: 0px;
-                height: 70px;
-                width: 70px;
+                height: 80px;
+                width: 80px;
                 content: '';
                 border-radius: 50%;
                 z-index: -1;
@@ -49,35 +94,19 @@ const FeturesSectionWrapper = styled.section`
                 }
             }
         }
-        &.v1{
-            .fetures-icon-block{
-                background: url(${Bg1}) no-repeat;
-                background-size: contain;
-                &:before{
-                    background: url(${Vintage1});
-                }
-            }
-        }
-        &.v2{
-            .fetures-icon-block{
-                background: url(${Bg2}) no-repeat;
-                background-size: contain;
-                &:before{
-                    background: url(${Vintage2});
-                }
-            }
-        }
 
         
         h3{
-            font-size: 22px; 
+            font-size: 21px; 
             margin-bottom: 15px;
             font-weight: 600;
             line-height: 30px;
+            color: ${props => props.theme.black};
         }
-        p{
+        p {
             margin: 0 0 50px 0;
             font-weight: 300;
+            font-size: 15px; 
         }
     }
     @media only screen and (max-width: 912px) {
@@ -93,6 +122,35 @@ const FeturesSectionWrapper = styled.section`
         .fetures-icon-block{
             margin: 0 auto 25px auto;
         }
+        .banner-image {
+            background: url(${BannerMobile});
+            padding-inline: 13%;
+            padding-block: 30px;
+            background-size:     cover;
+            background-repeat:   no-repeat;
+            background-position: center center;  
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom : 70px;
+            text-align: center;
+            h2{
+                color: white;
+                font-size: 25px; 
+                margin-bottom: 10px;
+                font-weight: 900;
+                line-height: 30px;
+            }
+            h3{
+                color: white;
+                font-size: 20px; 
+                font-weight: 700;
+                line-height: 30px;
+                text-align: center;
+            }
+       }
     }
     
 `

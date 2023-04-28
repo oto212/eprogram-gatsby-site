@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 const FaqSectionWrapper = styled.section`
-  padding: 95px 0 140px 0;
+  padding: 70px 0 50px 0;
+  background-color: #f9f9f9
   position: relative;
   overflow: hidden;
   .section__particle {
@@ -25,10 +26,10 @@ const FaqSectionWrapper = styled.section`
   }
   .accordion__item {
     .accordion__header {
-      padding: 20px;
-      background: ${props => props.theme.primaryLightColorTwo};
+      padding-bottom: 20px;
+      border-bottom: 1px solid #DDDDDD;
       h5 {
-        font-weight: 300;
+        font-weight: 600;
         font-size: 16px;
         color: ${props => props.theme.black};
       }
@@ -43,7 +44,7 @@ const FaqSectionWrapper = styled.section`
       padding: 20px;
       p {
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 400;
         margin: 0;
       }
     }

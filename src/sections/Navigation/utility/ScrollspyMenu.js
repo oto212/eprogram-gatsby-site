@@ -1,6 +1,6 @@
 import React from "react";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-import { Link } from "gatsby";
+import Button from '../../../reusecore/Button';
 
 const ScrollspyMenu = ({ menuItems, ...props }) => {
   const addAllClasses = [""];
@@ -16,29 +16,26 @@ const ScrollspyMenu = ({ menuItems, ...props }) => {
             menu.subItems !== undefined ? "nav-item has-dropdown" : "nav-item"
           }
         >
-         
-            <AnchorLink
-                to={menu.path}
-                >
-                {menu.name}
-            </AnchorLink>
-          {menu.subItems !== undefined && (
-            <ul key={index} className="dropdown">
-              {menu.subItems.map((subItem, i) => (
-                <li key={i}>
-                  <Link
-                        to={subItem.path}
-                        partiallyActive={true}
-                    >
-                        {subItem.name}
-                    </Link>
-                </li>
-              ))}
-            </ul>
-          )}
+
+          <AnchorLink
+            to={menu.path}
+          >
+            {menu.name}
+          </AnchorLink>
         </li>
-      ))}
-    </ul>
+      ))
+      }
+      {props.expand && <>
+        <li className={
+          "nav-item has-dropdown"
+        }>
+          <Button onClick={() => props.setModalOpen(true)} className="nav-btn">
+            <span>Accéder à eProgram</span>
+          </Button>
+
+        </li>
+      </>}
+    </ul >
   );
 };
 

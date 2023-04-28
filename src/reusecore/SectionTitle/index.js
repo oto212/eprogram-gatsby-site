@@ -7,6 +7,38 @@ margin-left: auto;
 margin-right: auto;
 width: 40%;
 text-align: center;
+.title-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+.blog-title-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.title-container-middle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+.underline {
+    width: 70px;
+    height: 2px;
+    background-color: ${props => props.theme.headingColor};
+}
+.underline-left {
+    margin-left: -40px;
+}
 
 ${props => (props.rightAlign && css (
     {
@@ -34,8 +66,18 @@ h2{
     font-size: 40px;
     font-weight: 300;
     line-height: 50px;
-    color: ${props => props.theme.headingColor ? props.theme.headingColor : '#2C0075'};
-    margin: 0 0 75px 0;
+    color: ${props => props.theme.black};
+    margin: 0 0 10px 0;
+    span{
+        font-weight: 600;
+    }
+}
+h3{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    color: ${props => props.theme.black};
+    margin: 0 0 15px 0;
     span{
         font-weight: 600;
     }
@@ -49,6 +91,25 @@ h2{
     .section-title h2{
         margin-bottom: 20px;
     }
+}
+@media only screen and (max-width: 568px) {
+    .blog-title-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .underline-left {
+        margin-left: 0px;
+    }
+    .title-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }  
 }
 `
 const SectionTitle = ({ children, ...props }) => {

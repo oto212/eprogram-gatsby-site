@@ -1,9 +1,10 @@
-import image1 from 'assets/images/app/testimonial/testimonial-thumb-1.jpg';
-import image2 from 'assets/images/app/testimonial/testimonial-thumb-2.jpg';
-import image3 from 'assets/images/app/testimonial/testimonial-thumb-3.jpg';
-import image4 from 'assets/images/app/testimonial/testimonial-thumb-4.jpg';
-import image5 from 'assets/images/app/testimonial/testimonial-thumb-5.jpg';
-import image6 from 'assets/images/app/testimonial/testimonial-thumb-6.jpg';
+import image1 from 'assets/images/app/testimonial/testimonial-thumb-1.png';
+import image2 from 'assets/images/app/testimonial/testimonial-thumb-2.png';
+import image3 from 'assets/images/app/testimonial/testimonial-thumb-3.png';
+import image4 from 'assets/images/app/testimonial/testimonial-thumb-4.png';
+import image5 from 'assets/images/app/testimonial/testimonial-thumb-5.png';
+import image6 from 'assets/images/app/testimonial/testimonial-thumb-6.png';
+// import image7 from 'assets/images/app/testimonial/testimonial-thumb-7.png';
 
 
 const data = {
@@ -51,8 +52,13 @@ const data = {
         dsignation: 'Social Manager',
         thumb: image6
     },
-    
-
+  //   {
+  //     quote:
+  //       'This app is on one assistant statement caught agency, the atprior from peace counter. A to is home, between history; With the headline is an the narrow size part. In ride ourselves,you to out',
+  //     author: 'Manal Bennani',
+  //     dsignation: 'Social Manager',
+  //     thumb: image7
+  // },
   ]
 };
 export default data;

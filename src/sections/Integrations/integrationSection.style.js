@@ -1,61 +1,20 @@
 import styled from 'styled-components';
 
 const IntegrationItemWrapper = styled.section`
-    padding: 100px 0 110px 0;
-    .integration-text{
-        font-weight: 300;
-        margin-bottom: 80px;
-        margin-top: 0;
-    }
-    .integration__block__wrap{
+    padding: 70px 0 70px 0;
+    background-color: #F9F9F9;
+    .text-container {
+        width: 100%;
         display: flex;
-        flex-wrap: wrap;
-    }
-    .integration__block{
-        flex-basis: 50%;
-    }
-    .integration__block.right{
-        margin-top: 50px;
-    }
-    .integration__block__inner { 
-        box-shadow: 0px 0px 30px ${props => props.theme.shadowLightColor};
-        padding: 11%;
-        margin: 15px;
-        border-radius: 4%;
-        position: relative;
-        h3{
-            margin-bottom: 20px; 
+        justify-content: center;
+        align-items:  center;
+        p {
+            text-align: center;
+            font-size: 18px;
             font-weight: 400;
-        }
-        p{
-            font-size: 16px;
-            font-weight: 300
+            max-width: 80%;
         }
 
-        img{
-            height: 50px; 
-            margin-bottom: 25px
-        }
-        a{
-            position: absolute;
-            right: 15%;
-            bottom: 16%;
-            width: 30px;
-            transition: all 0.8s cubic-bezier(0.3,0.8,0.2,1) 0s;
-            img{
-                margin: 0;
-                width: 30px;
-                height: auto;
-            }
-        }
-        &:hover{
-            a{
-                right: 10%;
-            }
-        }
-    }
-    .integration__block__inner+.integration__block__inner{
-        margin-top: 30px;
     }
     .section-title{
         h2{
@@ -118,15 +77,6 @@ const IntegrationItemWrapper = styled.section`
         
      }
      @media only screen and (max-width: 480px) {
-        .integration__block{
-            flex-basis: 100%;
-            &.right{
-                margin-top: 10px;
-            }
-        }
-        .integration__block__inner{
-            padding: 30px;
-        }
      }
    
 

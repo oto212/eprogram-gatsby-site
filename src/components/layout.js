@@ -1,21 +1,18 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import Helmet from "react-helmet"
-
-import FavIcon from "assets/images/favicon.png"
+import Helmet from "react-helmet";
+import ScrollToTop from "react-scroll-to-top";
+import FavIcon from "assets/images/favicon.png";
+import { LazyMotion, domAnimation } from "framer-motion"
 
 const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
         <html lang="pt" />
-        <title>{`Appion is Next Gen Nextjs and Gatsby landing`}</title>
+        <title>{`eProgram | Perks and Benefits`}</title>
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
-        <link
-          href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap'
-          rel='stylesheet'
-        />
         <link
           rel="stylesheet"
           type="text/css"
@@ -27,8 +24,10 @@ const Layout = ({ children }) => {
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
       </Helmet>
-      
-      {children}
+      <ScrollToTop smooth color="white" width="20px" height="20px" style={{ backgroundColor: "#74acfe", padding: "10px 5px 5px 5px" }} />
+      <LazyMotion features={domAnimation}>
+        {children}
+      </LazyMotion>
     </>
   )
 };

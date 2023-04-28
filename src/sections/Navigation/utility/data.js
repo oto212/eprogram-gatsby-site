@@ -1,16 +1,8 @@
 const Data = {
-    menuItems: [
-      
-
+    menuItems: [   
       {
-        name: "À propos",
-        path: "/#about",
-        offset: "-50"
-      },
-    
-      {
-        name: "Nos conventions",
-        path: "/#integrations",
+        name: "Solutions & Avantages",
+        path: "/#features",
         offset: "-50"
       },
       {
@@ -19,13 +11,13 @@ const Data = {
         offset: "-50"
       },
       {
-        name: "Faq",
+        name: "Questions fréquentes",
         path: "/#faq",
         offset: "-50"
       },
       {
-        name: "Contact",
-        path: "/#pricing",
+        name: "Actualités",
+        path: "/#actuality",
         offset: "-50"
       },
     ]

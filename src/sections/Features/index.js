@@ -1,105 +1,148 @@
-import React from "react";
-import { IconContext } from "react-icons";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "reusecore/Layout";
 import SectionTitle from "reusecore/SectionTitle";
 
-import Icon1 from "assets/images/app/features/01.svg";
-import Icon2 from "assets/images/app/features/02.svg";
-import Icon3 from "assets/images/app/features/03.svg";
-import Icon4 from "assets/images/app/features/04.svg";
-import Icon5 from "assets/images/app/features/05.svg";
-import Icon6 from "assets/images/app/features/06.svg";
-import { BiWalletAlt } from "react-icons/bi";
+import Icon1 from "assets/images/app/features/icon1.png";
+import Icon2 from "assets/images/app/features/icon2.png";
+import Icon3 from "assets/images/app/features/icon3.png";
+import Icon4 from "assets/images/app/features/icon4.png";
+import Icon5 from "assets/images/app/features/icon5.png";
+import Icon6 from "assets/images/app/features/icon6.png";
 
 import FeturesSectionWrapper from "./fetures.style";
+import { m, useAnimation } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
 
 const Features = () => {
+  const conventionsAnimation = useAnimation();
+  const [ref, inView] = useInView();
+  const getButtonVariants = (number) => {
+    return {
+      hidden: {
+        opacity: 0,
+        y: 50
+      },
+      visible: {
+        opacity: 1,
+        y: 0,
+        transition: {
+          opacity: { ease: "linear" },
+          delay: 0.1 + number * 0.1,
+          duration: 0.6
+        }
+      }
+    }
+  }
+
+  useEffect(() => {
+    if (inView) {
+      conventionsAnimation.start("visible");
+      return () => conventionsAnimation.stop;
+    }
+  }, [inView])
+
   return (
     <FeturesSectionWrapper id="features">
       <Container fullWidthSM>
-        <SectionTitle UniWidth="65%">
-          <h2>
-          Une plateforme <span>all-in-one</span> 
-          </h2>
+        <SectionTitle UniWidth="65%" >
+          <div style={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: "15px", marginBottom: "60px" }}>
+            <h2><span>
+              Une plateforme all-in-one
+            </span>
+            </h2>
+            <div className="underline"></div>
+          </div>
         </SectionTitle>
+        <div className="banner-image" alt="Light-blue banner">
+          <h2>
+            Gestion externalisée des conventions
+          </h2>
+          <h3>Nous pronons en charge de vos convention de A à Z,de la négociation à la livraison des produits à vos collaborateurs.</h3>
+        </div>
         <Row>
-          <Col xs={12} sm={6} md={4}>
-            <div className="fetures-block v1">
-              <div className="fetures-icon-block">
-                <img src={Icon1} alt="img" />
-              </div>
-              <h3>Gestion externalisée et simplifiée des conventions
-</h3>
-              <p>
-              Nous prenons en charge vos conventions de A à Z, de la négociation à la livraison des produits à vos collaborateurs. 
-
-              </p>
-            </div>
-          </Col>
-          <Col xs={12} sm={6} md={4}>
-            <div className="fetures-block v2">
-              <div className="fetures-icon-block">
-                <img src={Icon2} alt="img" />
-              </div>
-              <h3>Suivi fournisseurs et service clients dédié</h3>
-              <p>
-              Nos équipes coordonnent les flux avec les différents fournisseurs de produits et de service et accompagnent vos collaborateurs à travers un service clients dédié. 
-              </p>
-            </div>
-          </Col>
-          <Col xs={12} sm={6} md={4}>
-            <div className="fetures-block v1">
-              <div className="fetures-icon-block">
-                <img src={Icon3} alt="img" />
-              </div>
-              <h3>Personnalisation de la plateforme aux couleurs de l'entreprise</h3>
-              <p>
-              Le design de la plateforme est personnalisable et s’habille aux couleurs de votre marque pour faciliter son adoption par vos collaborateurs et être un levier pour votre marque. 
-              </p>
-            </div>
-          </Col>
-          <Col xs={12} sm={6} md={4}>
-            <div className="fetures-block v2">
-              <div className="fetures-icon-block">
-                <img src={Icon4} alt="img" />
-              </div>
-              <h3>Dashboard des metrics RH</h3>
-              <p>
-              Nous réalisons des reportings réguliers de vos programmes de conventions pour vous permettre leur suivi et mentoring. 
-              </p>
-            </div>
-          </Col>
-          <Col xs={12} sm={6} md={4}>
-            <div className="fetures-block v1">
-            <IconContext.Provider
-      value={{
-        color: "#ffffff",
-        size: "0.5em",
-        className: "fetures-icon-block",
-      }}
-    >
-      <div>
-        <BiWalletAlt />
-      </div>
-    </IconContext.Provider>
-              
-              <h3>Financement des avantages sociaux direct</h3>
-              <p>
-              Nous proposons à vos collaborateurs des solutions de financement avantageuses pour réaliser leurs achats en toute sérénité.
-              </p>
-            </div>
-          </Col>
-          <Col xs={12} sm={6} md={4}>
-            <div className="fetures-block v2">
-              <div className="fetures-icon-block">
-                <img src={Icon6} alt="img" />
-              </div>
-              <h3>Des prix réduits, pour tous.</h3>
-              <p>
-              Que vous soyez une multinationale ou une PME, vous bénéficiez des mêmes prix conventionnés sur notre catalogue de produits et services.
-              </p>
-            </div>
-          </Col>
+          <div
+            transition={{ staggerChildren: 0.1 }} style={{ display: "flex", flexWrap: "wrap" }}>
+            <Col xs={12} sm={6} lg={4}>
+              <m.div animate={conventionsAnimation} initial="hidden" variants={getButtonVariants(0)} className="fetures-block">
+                <div className="fetures-icon-block">
+                  <img loading="lazy" alt="Service icon" src={Icon1} />
+                </div>
+                <div className="data_wrapper">
+                  <h3>
+                    Des prix réduits<br /> pour tous
+                  </h3>
+                  <p>
+                    Que vous soyez un multinationale ou une PME, vous bénéficiez des mêmes pris conventionnés.
+                  </p>
+                </div>
+              </m.div>
+            </Col>
+            <Col xs={12} sm={6} lg={4}>
+              <m.div ref={ref} animate={conventionsAnimation} initial="hidden" variants={getButtonVariants(1)} className="fetures-block">
+                <div className="fetures-icon-block">
+                  <img loading="lazy" alt="Service icon" src={Icon2} />
+                </div>
+                <div className="data_wrapper">
+                  <h3>Assistance dédiée et suivi fournisseurs</h3>
+                  <p>
+                    On s'occupe de tout, vous ne vous ocuppez de rien! de l'assistance dédiée au quotidien à la gestion et le suivi des fournisseurs.
+                  </p>
+                </div>
+              </m.div>
+            </Col>
+            <Col xs={12} sm={6} lg={4}>
+              <m.div animate={conventionsAnimation} initial="hidden" variants={getButtonVariants(2)} className="fetures-block">
+                <div className="fetures-icon-block">
+                  <img loading="lazy" alt="Service icon" src={Icon3} />
+                </div>
+                <div className="data_wrapper">
+                  <h3>Personnalisation et habillage aux couleurs de l'entreprise</h3>
+                  <p>
+                    Le design de la plateforme est personnalisable et s’habille aux couleurs de votre marque pour faciliter son adoption par vos collaborateurs et être un levier pour votre marque employeur.
+                  </p>
+                </div>
+              </m.div>
+            </Col>
+            <Col xs={12} sm={6} lg={4}>
+              <m.div animate={conventionsAnimation} initial="hidden" variants={getButtonVariants(3)} className="fetures-block">
+                <div className="fetures-icon-block">
+                  <img loading="lazy" alt="Service icon" src={Icon4} />
+                </div>
+                <div className="data_wrapper">
+                  <h3>Reporting Régulier des metrics RH</h3>
+                  <p>
+                    Nous réalisons des reportings réguliers de vos programmes de conventions pour vous permettre leur suivi et monitoring.
+                  </p>
+                </div>
+              </m.div>
+            </Col>
+            <Col xs={12} sm={6} lg={4}>
+              <m.div animate={conventionsAnimation} initial="hidden" variants={getButtonVariants(4)} className="fetures-block">
+                <div className="fetures-icon-block">
+                  <img loading="lazy" alt="Service icon" src={Icon5} />
+                </div>
+                <div className="data_wrapper">
+                  <h3>Financement des avantages sociaux direct</h3>
+                  <p>
+                    Nous proposons à vos collaborateurs des solutions de financement avantageuses pour échelonner le paiement de leurs achats sur la plateforme.
+                  </p>
+                </div>
+              </m.div>
+            </Col>
+            <Col xs={12} sm={6} lg={4}>
+              <m.div animate={conventionsAnimation} initial="hidden" variants={getButtonVariants(5)} className="fetures-block">
+                <div className="fetures-icon-block">
+                  <img loading="lazy" alt="Service icon" src={Icon6} />
+                </div>
+                <div className="data_wrapper">
+                  <h3>Systém rewarding</h3>
+                  <p>
+                    eProgram vous permet de lancer vos programmes de rewarding des collaborateurs en leur laissant la liberté de faire les achats qu'il souhaitent directement sur la plateforme.
+                  </p>
+                </div>
+              </m.div>
+            </Col>
+          </div>
         </Row>
       </Container>
     </FeturesSectionWrapper>

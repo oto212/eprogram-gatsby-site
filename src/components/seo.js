@@ -8,9 +8,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby";
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ description, lang, meta, title , image}) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -25,7 +25,9 @@ function SEO({ description, lang, meta, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  // console.log("seo data ===========>",title, description, image);
+  const metaDescription = description ? description : site.siteMetadata.description
+  const og_Image = image ? image : "https://cdn.shopify.com/s/files/1/0087/1199/5492/files/eProgram.png?v=1680089706";
 
   return (
     <Helmet
@@ -33,7 +35,6 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
           name: `description`,
@@ -50,6 +51,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:image`,
+          content: `${og_Image}`,
         },
         {
           name: `twitter:card`,

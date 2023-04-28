@@ -1,4 +1,5 @@
 import styled, {css} from 'styled-components';
+
 const ButtonStyle = styled.button` 
     cursor: pointer;
     display: inline-flex;
@@ -6,23 +7,24 @@ const ButtonStyle = styled.button`
     justify-content: center; 
     font-family: inherit; 
     font-size: 16px;
+    font-weight: 600;
+    padding-block: 10px;
+    padding-inline: 20px;
+    background-color: ${props => props.theme.primaryLightColor};
+    border: 1.5px solid  ${props => props.theme.primaryLightColor}!important;
     text-decoration: none;
-    text-transform: capitalize; 
-    border: 0; 
-    min-width: 170px;
-    padding: 14px;
-    border-radius: 3px;
+    border: 0;
+    // max-width: 170px;
+    border-radius: 5px;
     -webkit-transition: 450ms all;
     transition: 450ms all;
     position: relative;
-    color: ${props => props.theme.primaryColor};
-    background-color: ${props => props.theme.primaryLightColor};
-    z-index: 999;
-    &:hover,
-    &:focus {
-        outline: none;
-        background: ${props => props.theme.primaryColor};
-        color: ${props => props.theme.white};
+    color: white;
+    z-index: 2;
+    &:hover {
+        background: #2A6FD4;
+        color: white;
+        border-color :#2A6FD4!important;
     }
     .icon-left{
         margin-right: 8px;
@@ -51,6 +53,20 @@ const ButtonStyle = styled.button`
             background: ${props.theme.secondaryColor}; 
         }
     `}
+    @media only screen and (max-width: 568px){
+        font-size: 14px;
+        font-weight: 600;
+        padding-block: 8px;
+        padding-inline: 15px;
+        background-color: ${props => props.theme.primaryLightColor};
+        border: 1.5px solid  ${props => props.theme.primaryLightColor};
+        .icon-left{
+            margin-right: 6px;
+        }
+        .icon-right{
+            margin-left: 6px;
+        }
+    }
 `
 ButtonStyle.displayName = 'ButtonStyle';
 

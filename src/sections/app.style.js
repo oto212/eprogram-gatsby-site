@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components'; 
+import { createGlobalStyle } from 'styled-components';
 
- 
+
 
 const GlobalStyle = createGlobalStyle`
 
@@ -29,7 +29,6 @@ html{
 }
 
 body,html {
-    
     margin: 0px;
 
 }
@@ -38,7 +37,7 @@ body {
   line-height: 28px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Roobert', sans-serif;
+  font-family: 'Roobert', Regular, sans-serif;
   color: ${props => props.theme.textColor};
   overflow-x: hidden !important;
   font-weight: 400;
@@ -51,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roobert', sans-serif;
+    font-family: 'Roobert', Regular,  sans-serif;
     color: ${props => props.theme.headingColor}; 
     margin: 0;
 }

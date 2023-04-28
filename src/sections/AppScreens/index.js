@@ -1,145 +1,33 @@
 import React from "react";
-import { Link } from "gatsby"
-import { Container, Row, Col } from "reusecore/Layout";
+import { Row, Col } from "reusecore/Layout";
 import SectionTitle from "reusecore/SectionTitle";
-import Button from "reusecore/Button";
-import { SlickSlider, SliderItem } from "reusecore/SlickSlider";
-
-import image1 from "assets/images/app/app-screen/01.png";
-import image2 from "assets/images/app/app-screen/02.png";
-import image3 from "assets/images/app/app-screen/03.png";
-import image4 from "assets/images/app/app-screen/04.png";
-import particle1 from "assets/images/app/particle/09.png";
-import particle2 from "assets/images/app/particle/10.png";
-import particle3 from "assets/images/app/particle/11.png";
-import particle4 from "assets/images/app/particle/13.png";
-
 import AppScreenSectionWrapper from "./appScreenSection.style";
+import { BiCheckCircle } from "react-icons/bi"
 
 const AppScreens = () => {
-  const thumbs = [image1, image2, image3, image4];
-  const settings = {
-    customPaging: function(i) {
-      return (
-        <a>
-          <img src={thumbs[i]} alt="img" />
-        </a>
-      );
-    },
-    infinite: true,
-    autoplay: true,
-    dots: true,
-    className: "app__screen__slider",
-    dotsClass: "slick-dots slick-thumb",
-    centerPadding: "100px",
-    centerMode: true,
-    slidesToShow: 1,
-    speed: 500,
-    infinite: true,
 
-    responsive: [
-      {
-        breakpoint: 1025,
-        settings: {
-          centerPadding: "280px"
-        }
-      },
-      {
-        breakpoint: 912,
-        settings: {
-          slidesToShow: 3,
-          centerPadding: "80px"
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-          centerPadding: "50px"
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          centerPadding: "0px"
-        }
-      }
-    ]
-  };
   return (
     <AppScreenSectionWrapper>
-      <div className="app-screen-one-block">
-        <img className="section__particle one" src={particle1} alt="img" />
-        <img className="section__particle two" src={particle2} alt="img" />
-        <img className="section__particle four" src={particle4} alt="img" />
-        <Container>
-          <Row>
-            <Col className="app-screen-content-block" xs={12} lg={6}>
-              <div className="app__screen__conent">
-                <SectionTitle
-                  className="section-title"
-                  leftAlign={true}
-                  UniWidth="100%"
-                >
-  
-                  <h2>
-                    Bénéficiez d’une gestion intégrée de vos <span>conventions </span>
-                  </h2>
-                </SectionTitle>
-                <Button>Demandez une démo</Button>
-              </div>
-            </Col>
-            <Col className="app-screen-slider-block" xs={12} lg={6}>
-              <SlickSlider {...settings}>
-                <SliderItem key={"1"}>
-                  <img src={image1} alt="img" />
-                </SliderItem>
-                <SliderItem key={"2"}>
-                  <img src={image2} alt="img" />
-                </SliderItem>
-                <SliderItem key={"3"}>
-                  <img src={image3} alt="img" />
-                </SliderItem>
-                <SliderItem key={"4"}>
-                  <img src={image4} alt="img" />
-                </SliderItem>
-              </SlickSlider>
-            </Col>
-          </Row>
-        </Container>
-      </div>
       <div className="app-screen-two-block">
-        <Container>
-          <Row>
-            <Col className="app-screen-content-block" offsetMd={6} md={6}>
-              <SectionTitle
-                  className="section-title"
-                  leftAlign={true}
-                  UniWidth="100%"
-                >
-                  {" "}
-               
-                  <h2>
-                  Bénéficiez d’une gestion intégrée de vos conventions
-                    </h2>
-
-                </SectionTitle>
-                <p>Pour réserver leur prochain voyage, équiper leur cuisine ou s’offrir un cadeau high-tech, donnez à vos collaborateurs l’accès à une plateforme globale pour gérer les conventions de A à Z. </p>
-                <div className="btn-group">
-                 <Link to="#pricing">
-                  <Button className="btn-outline one">
-                    Demandez une démo
-                  </Button></Link>
-                  <Link to="https://eprogram.store/account/login">
-                  <Button className="btn-outline two">
-                    Connectez vous
-                  </Button></Link>
-                </div>
-            </Col>
-          </Row>
-        </Container>
-    </div>
+        <Row>
+          <Col className="app-screen-content-block" offsetXl={6} xl={6}>
+            <SectionTitle
+              className="section-title"
+              leftAlign={true}
+              UniWidth="100%"
+            >
+              <h2>
+                <span>Utilisez le solde employé pour le rewarding de vos collaborateurs</span>
+              </h2>
+            </SectionTitle>
+            <div className="text-container">
+              <div className="check-text"><div style={{width: "30px"}}><BiCheckCircle style={{marginRight: "10px"}} size="30"/></div>Le montant que vous voulez, aux collaborateurs que vous voulez.</div>
+              <div className="check-text"><div style={{width: "30px"}}><BiCheckCircle style={{marginRight: "10px"}} size="30"/></div>Un crédit à consommer par vos collaborateurs, librement et directement sur la plateforme.</div>
+              <div className="check-text"><div style={{width: "30px"}}><BiCheckCircle style={{marginRight: "10px"}} size="30"/></div>Une multitude de conventions, aux meilleurs prix pour équiper vos collaborateurs.</div>
+            </div>
+          </Col>
+        </Row>
+      </div>
     </AppScreenSectionWrapper>
   );
 };

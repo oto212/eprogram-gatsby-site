@@ -1,9 +1,14 @@
 import styled from 'styled-components';
 
 const PricingSectionWrapper = styled.section`
-    padding: 90px 0 108px 0;
+    padding: 70px 0 70px 0;
     overflow: hidden;
     position: relative;
+    .about-content-wrap{
+        //background-color: green;
+        display: flex;
+        justify-content: end;
+    }
     .section__particle{
         position: absolute;
         &.one{
@@ -24,15 +29,26 @@ const PricingSectionWrapper = styled.section`
             margin-right:auto;
             margin-left:auto;
         }
-        input{
-            height: 70px;
-            margin-bottom:10px
+        input {
+            height: 45px;
+            margin-block: 0.6rem;
             border:none;
             background: #fff;
             width: 100%;
             padding: 20px 30px;
-            font-size: 18px;
-            border-radius: 50px;
+            font-size: 15px;
+            border-radius: 10px;
+            box-shadow: rgba(206, 206, 206, 0.78) 0px 1px 23px -8px;
+        }
+        select {
+            height: 50px;
+            margin-block: 0.6rem;
+            border:none;
+            background: #fff;
+            width: 100%;
+            padding-inline: 25px;
+            font-size: 15px;
+            border-radius: 10px;
             box-shadow: rgba(206, 206, 206, 0.78) 0px 1px 23px -8px;
         }
         .src-btn{
@@ -52,7 +68,6 @@ const PricingSectionWrapper = styled.section`
             }
         }
         .domain-extention-block{
-         
             margin-top: 20px;
             text-align: center;
             span{
@@ -92,22 +107,17 @@ const PricingSectionWrapper = styled.section`
         }
     }
     .pricing-block{
-        padding: 60px 60px 55px 60px;
+        padding: 35px 45px 40px 45px;
+        //background-color: red
+        width: 90%;
+        box-shadow: -3px 4px 3px 1px rgba(222,222,222,0.5);
+        -webkit-box-shadow: -3px 4px 3px 1px rgba(222,222,222,0.5);
+        -moz-box-shadow: -5px 3px 3px 1px rgba(222,222,222,0.5);
         border: 1px solid ${props => props.theme.primaryLightColor};
-        box-shadow: 0 0 40px ${props => props.theme.shadowColor};
         border-radius: 5px;
         position: relative;
         text-align: center;
         transition: all 0.3s ease-in;
-        &:hover{
-            border-color: ${props => props.theme.primaryColor};
-            .thumb-block{
-                border-color: ${props => props.theme.primaryColor};
-            }
-            .pricing-btn{
-                opacity: 1;
-            }
-        }
     }
     .thumb-block{
         padding-bottom: 30px;
@@ -118,6 +128,7 @@ const PricingSectionWrapper = styled.section`
         text-align: center;
         padding: 40px 0 23px 0;
         h3{
+            color: red!important;
             font-size: 36px;
             font-weight: 600;
             margin: 0 0 10px 0; 
@@ -133,17 +144,18 @@ const PricingSectionWrapper = styled.section`
         text-align: center;
     }
     .details-block{
+        margin-top: 15px;
         text-align: left;
-        span{
-            color: ${props => props.theme.headingColor};
-            font-weight: 300;
-            display: flex;
-            align-items: center;
-            svg{
-                fill: ${props => props.theme.textColor};
-                margin-right: 20px;
-            }
-        }
+        // span{
+        //     color: ${props => props.theme.headingColor};
+        //     font-weight: 300;
+        //     display: flex;
+        //     align-items: center;
+        //     svg{
+        //         fill: ${props => props.theme.textColor};
+        //         margin-right: 20px;
+        //     }
+        // }
         .off{
             svg{
                 fill: ${props => props.theme.secondaryColor};
@@ -187,8 +199,16 @@ const PricingSectionWrapper = styled.section`
             }
         }
     }
-    @media only screen and (max-width: 912px) {
+    @media only screen and (max-width: 992px) {
         padding: 50px 0 35px 0;
+        .about-content-wrap{
+            //background-color: green;
+            display: flex;
+            justify-content: center;
+        }
+        .about-thumb {
+            display: none;
+        }
         .section__particle{
             &.one {
                 bottom: -122px;
@@ -199,10 +219,13 @@ const PricingSectionWrapper = styled.section`
             padding: 40px 30px 35px 30px;
         }
     }
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 568px) {
         .pricing-block{
-            margin: 0 15px 40px 15px;
+            margin: 0;
             padding: 40px 15px 35px 15px;
+            h3 {
+                font-size: 24px;
+            }
         }
     }
     

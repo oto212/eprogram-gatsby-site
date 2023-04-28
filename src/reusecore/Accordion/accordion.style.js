@@ -41,6 +41,14 @@ export const AccordionTitleWrapper = styled(AccordionItemHeading)`
         opacity: 1;
       }
     }
+    &[aria-expanded='true'] {
+      ${OpenIcon} {
+        opacity: 1;
+      }
+      ${CloseIcon} {
+        opacity: 0;
+      }
+    }
   }
 
   &:focus {
@@ -69,6 +77,6 @@ export const IconWrapper = styled.div`
     right: 0;
     transform: translateY(-50%);
     transition: 0.25s ease-in-out;
-    color: #FB7B81;
+    color: ${props => props.theme.primaryLightColor};
   }
 `;

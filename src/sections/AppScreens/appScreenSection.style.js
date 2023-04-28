@@ -1,103 +1,30 @@
 import styled from 'styled-components';
 
-import AppSecreenBG from 'assets/images/app/get-app/get-app-bg.png';
-
-import AppSecreenBGTwo from 'assets/images/app/app-screen/05.png';
+import AppSecreenBGTwo from 'assets/images/app/app-screen/05.webp';
+import AppSecreenBGOne from 'assets/images/app/app-screen/banner-mobile.webp';
 
 const AppScreenSectionWrapper = styled.div`
-    .app-screen-one-block{
-        padding: 130px 0 110px 0;
-        background: url(${AppSecreenBG}) no-repeat;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        display: none;
-        .section__particle{
-            position: absolute;
-            &.one{
-                width: 70px;
-                left: 7%;
-                top: -32px;
-            }
-            &.two{
-                width: 60px;
-                bottom: 60px;
-                right: 40%;
-            }
-            &.four{
-                width: 95px;
-                bottom: 15%;
-                right: 17%;
-            }
-        }
-        .app__screen__slider{
-            .slick-list{
-                transform: translateX(-30px);
-            }
-            .slick-track{
-                display: flex;
-                justify-content: space-between;
-                .slick-slide{
-                    float: none;
-                    margin: 0 10px;
-                    transition: 450ms all;
-                    transform: scale(0.92);
-                    img{
-                        box-shadow: 0 0 40px ${props => props.theme.shadowColor};
-                    }
-                    &.slick-center{
-                        transform: scale(1);
-                    }
-                }
-            }
-            .slick-dots{
-                right: -100%;
-                bottom: 130px;
-                width: auto;
-                z-index: 999;
-                li{
-                    width: 115px;
-                    height: 195px;
-                    margin: 0 8px;
-                    transition: all 0.3s ease-in;
-                    img{
-                        max-width: 100%;
-                    }
-                }
-                li.slick-active{
-                    box-shadow: -1px 25px 17px ${props => props.theme.shadowColor};
-                }
-            }
-        }
-        .section-title{
-            h2{
-                font-weight:bolder;
-                
-            }
-        }
-        .app-screen-content-block{
-            order: 2;
-        }
-        .app-screen-slider-block{
-            order: 1;
-        }
-    }
     .app-screen-two-block{
-        padding: 100px 0;
+        padding: 80px;
         background: url(${AppSecreenBGTwo}) no-repeat;
-        background-attachment: fixed;
         background-size: cover;
-        background-position: 70% center;
         .section-title{
-        h4,h2{
-            color: ${props => props.theme.white};
-            
+            h4,h2{
+                color: ${props => props.theme.white};          
+            }
         }
-
+        .text-container {
+            margin-top: 40px;
         }
-        p{
+        .check-text {
             color:#ffffff;
-            
+            font-weight: 600!important;
+            font-size: 20px;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            gap: 10px;
+            margin-top: 10px;
         }
         .btn-group{
         display: flex;
@@ -173,26 +100,30 @@ const AppScreenSectionWrapper = styled.div`
             } 
         }
         .app-screen-two-block{
-            display: none;
+            //display: none;
         }
     }
     @media only screen and (max-width: 912px) {
-        .app-screen-one-block{
-            
-            .section__particle{
-                &.two,
-                &.four{
-                    display: none;
-                }
+        .app-screen-two-block{
+            background-position: center center;
+            padding: 40px;
+            .check-text {
+                color:#ffffff;
+                font-weight: 600!important;
+                font-size: 18px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                gap: 5px;
             }
         }
         
     }
     @media only screen and (max-width: 480px) {
-        .app-screen-one-block{
-            .slick-list{
-                padding: 0 !important;
-            }
+        .app-screen-two-block{
+            background: url(${AppSecreenBGOne}) no-repeat;
+            background-size: cover;
+            background-position: center;
         }
     }
     

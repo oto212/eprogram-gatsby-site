@@ -6,7 +6,7 @@ import styled, {css} from 'styled-components';
 
 const ContainerWrapper = styled.div`
 
-    width: 100%;
+    width: 95%;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
@@ -14,7 +14,7 @@ const ContainerWrapper = styled.div`
         max-width: 100%;
     }
     @media (min-width: 768px) {
-        max-width: 720px;  
+        max-width: 760px;  
     }
     @media (min-width: 992px) {
         max-width: 960px; 
@@ -30,7 +30,6 @@ const ContainerWrapper = styled.div`
 
 
 const Container = ({children}, props) => {
-    // console.log(props); 
     return(
         <ContainerWrapper {...props}>
             {children}

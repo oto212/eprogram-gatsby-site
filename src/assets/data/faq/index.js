@@ -1,20 +1,22 @@
-
 const data = {
-    faqs: [
-      {
-        title: 'C\'est quoi eProgram ?',
-        content: 'eProgram est une solution sur-mesure de gestion des conventions d\'entreprise. A travers la plateforme, les entreprises donnent accès à leur collaborateurs à des offres et avantages exclusifs, négociés spécialement pour eux.'
-      },
-      {
-        title: 'Quels sont les produits disponibles sur eProgram ?',
-        content: 'Le catalogue de produits est très large et actualisé régulièrement pour proposer les meilleures offres à nos utilisateurs. Vous trouverez : de l\'électroménager, des produits high-tech, de la téléphonie, des jouets, etc.'
-      },
-      {
-        title: 'Est-ce que mon employeur sait ce que j\'achète ?',
-        content: 'Non. eProgram respecte scrupuleusement la vie privée de ses utilisateurs. Aucune information personnelle, relative à l\'identité ou aux commandes réalisées n\'est partagé avec un tiers..'
-      }
-    ]
-    
-  };
-  export default data;
-  
+  faqs: [
+    {
+      title: 'Qui peut accéder à eProgram ?',
+      content: "Seuls les employés dont l'entreprise a signé un contrat de avantages et prestations avec nous peuvent accéder à eprogram."
+    },
+    {
+      title: "Mon employeur peut-il voir ce que j'achète sur la plateforme",
+      content: "Non, l'employeur n'a pas accès à vos informations personnelles ou à l'historique de vos achats."
+    },
+    {
+      title: 'Puis-je utiliser mon adresse email personnelle pour accéder à eprogram ?',
+      content: 'Seuls les utilisateurs ayant une adresse email professionnelle, confirmée par leur RH, ont accès à la plateforme.'
+    },
+    {
+      title: 'Comment puis-je être informé des dernières nouveautés et produits ?',
+      content: "N'oubliez pas d'activer votre abonnement aux emails marketing  ! Nous vous tenons au courant de toutes les nouvelles offres !"
+    },
+  ]
+
+};
+export default data;
