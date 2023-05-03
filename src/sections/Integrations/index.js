@@ -20,7 +20,7 @@ const Integrations = () => {
         </SectionTitle>
         <div className="text-container">
           <p>
-            eProgram donne accès à des offres exclusives sur plus de 50 marques partenaires, soit un catalogue de plus de 1800 produits (électroménager, Hight-Tech, teléphonie, jouets, cosmétiques, ...) et une large gamme de services, allant de la réservation d'hôtels à l'assurance.
+            eProgram donne accès à des offres exclusives sur plus de 80 marques partenaires, soit un catalogue de plus de 1800 produits (électroménager, Hight-Tech, teléphonie, jouets, cosmétiques, ...) et une large gamme de services, allant de la réservation d'hôtels à l'assurance.
           </p>
         </div>
         <Client />
