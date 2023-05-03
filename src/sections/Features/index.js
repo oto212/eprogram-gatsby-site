@@ -12,6 +12,7 @@ import Icon6 from "assets/images/app/features/icon6.png";
 import FeturesSectionWrapper from "./fetures.style";
 import { m, useAnimation } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
+import { SlickSlider, SliderItem } from "reusecore/SlickSlider";
 
 const Features = () => {
   const conventionsAnimation = useAnimation();
@@ -62,6 +63,7 @@ const Features = () => {
         <Row>
           <div
             transition={{ staggerChildren: 0.1 }} style={{ display: "flex", flexWrap: "wrap" }}>
+              
             <Col xs={12} sm={6} lg={4}>
               <m.div animate={conventionsAnimation} initial="hidden" variants={getButtonVariants(0)} className="fetures-block">
                 <div className="fetures-icon-block">
@@ -135,7 +137,7 @@ const Features = () => {
                   <img loading="lazy" alt="Service icon" src={Icon6} />
                 </div>
                 <div className="data_wrapper">
-                  <h3>Systém rewarding</h3>
+                  <h3>Systéme rewarding</h3>
                   <p>
                     eProgram vous permet de lancer vos programmes de rewarding des collaborateurs en leur laissant la liberté de faire les achats qu'il souhaitent directement sur la plateforme.
                   </p>

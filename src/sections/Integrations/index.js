@@ -12,7 +12,7 @@ const Integrations = () => {
           
         <div style={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: "15px", marginBottom: "60px" }}>
             <h2><span>
-              Plus de 50 marques<br /> partenaires allant jusqu'à -40%
+              Plus de 80 marques<br /> partenaires allant jusqu'à -50%
             </span>
             </h2>
             <div className="underline"></div>
