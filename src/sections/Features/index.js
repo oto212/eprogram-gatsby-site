@@ -58,7 +58,7 @@ const Features = () => {
           <h2>
             Gestion externalisée des conventions
           </h2>
-          <h3>Nous prenons en charge de vos convention de A à Z,de la négociation à la livraison des produits à vos collaborateurs.</h3>
+          <h3>Nous prenons en charge vos conventions de A à Z, de la négociation à la livraison des produits à vos collaborateurs.</h3>
         </div>
         <Row>
           <div
