@@ -60,6 +60,7 @@ const FeturesSectionWrapper = styled.section`
             p {
                 font-weight: 500;
                 font-size: 15px;
+                align-text: justify;
             }
         }
         .fetures-icon-block{
@@ -106,7 +107,11 @@ const FeturesSectionWrapper = styled.section`
         p {
             margin: 0 0 50px 0;
             font-weight: 300;
-            font-size: 15px; 
+            font-size: 15px;
+            text-align: justify;
+            // hyphens: auto;
+    // -webkit-hyphens: auto;
+    // word-spacing: -0.05em;
         }
     }
     @media only screen and (max-width: 912px) {

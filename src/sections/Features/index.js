@@ -87,7 +87,8 @@ const Features = () => {
                 <div className="data_wrapper">
                   <h3>Assistance dédiée et suivi fournisseurs</h3>
                   <p>
-                    On s'occupe de tout, vous ne vous ocuppez de rien!  De l'assistance dédiée au quotidien à la gestion et le suivi des fournisseurs.
+                  Nous nous occupons de tout! 
+De l'assistance dédiée au quotidien à la gestion et au suivi des fournisseurs, nous prenons en charge l'intégralité du processus.
                   </p>
                 </div>
               </m.div>
@@ -100,7 +101,7 @@ const Features = () => {
                 <div className="data_wrapper">
                   <h3>Personnalisation et habillage aux couleurs de l'entreprise</h3>
                   <p>
-                    Le design de la plateforme est personnalisable et s’habille aux couleurs de votre marque pour faciliter son adoption par vos collaborateurs et être un levier pour votre marque employeur.
+                  Le design de la plateforme est personnalisable selon les couleurs de votre marque pour faciliter son adoption par vos collaborateurs et être un levier pour votre marque employeur.
                   </p>
                 </div>
               </m.div>
@@ -137,7 +138,7 @@ const Features = () => {
                   <img loading="lazy" alt="Service icon" src={Icon6} />
                 </div>
                 <div className="data_wrapper">
-                  <h3>Systéme rewarding</h3>
+                  <h3>Système rewarding</h3>
                   <p>
                     eProgram vous permet de lancer vos programmes de rewarding des collaborateurs en leur laissant la liberté de faire les achats qu'il souhaitent directement sur la plateforme.
                   </p>

@@ -9,7 +9,7 @@ const data = {
       content: "Non, l'employeur n'a pas accès à vos informations personnelles ou à l'historique de vos achats."
     },
     {
-      title: 'Puis-je utiliser mon adresse email personnelle pour accéder à eprogram ?',
+      title: 'Puis-je utiliser mon adresse email personnelle pour accéder à eProgram ?',
       content: 'Seuls les utilisateurs ayant une adresse email professionnelle, confirmée par leur RH, ont accès à la plateforme.'
     },
     {
