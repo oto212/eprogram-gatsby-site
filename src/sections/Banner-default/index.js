@@ -48,7 +48,7 @@ const BannerDefault = () => {
                 </React.Fragment>
               </ModalvideoWrapper>
               <p style={{ textAlign: "justify" }}>
-                Nous avons la vocation d’aider les entreprises à prendre soin de leurs collaborateurs en leur donnant accès à la première plateforme marocaine de conventions digitalisées, dédiée aux conventions d’entreprise. Les collaborateurs ont ainsi un accès exclusif à plus de 10.000 produits et services, à prix réduits et livrés chez eux en toute sérénité.
+              Notre vocation est d'aider les entreprises à prendre soin de leurs collaborateurs en leur donnant accès à la première plateforme marocaine de conventions digitalisées, dédiée aux conventions d'entreprise. Les collaborateurs bénéficient d'un accès exclusif à plus de 10 000 produits et services à prix réduits, livrés chez eux en toute sécurité.
               </p>
 
               <div className="buttons-container">

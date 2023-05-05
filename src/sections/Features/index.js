@@ -74,7 +74,7 @@ const Features = () => {
                     Des prix réduits<br /> pour tous
                   </h3>
                   <p>
-                    Que vous soyez un multinationale ou une PME, vous bénéficiez des mêmes prix conventionnés.
+                  Que vous soyez une multinationale ou une PME, vous bénéficiez des mêmes prix conventionnés avantageux.
                   </p>
                 </div>
               </m.div>
