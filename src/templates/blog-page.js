@@ -250,6 +250,7 @@ h1 {
 const ContentMarkdown = styled.div`
 font-size: 18px;
 margin-top: 0px;
+text-align: justify;
 h2, h3 {
     margin-top: 20px;
     margin-bottom: 10px;
