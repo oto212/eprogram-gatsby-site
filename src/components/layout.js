@@ -18,6 +18,7 @@ const Layout = ({ children }) => {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
         />
+        <meta name="facebook-domain-verification" content="1yklynjk4rdp0g9opb1gx60fjtlfng" />
         <link
           rel="stylesheet"
           type="text/css"
