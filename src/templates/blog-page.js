@@ -168,7 +168,7 @@ export default function BlogPost({ pageContext }) {
                             <Player
                                 autoplay
                                 loop
-                                src="https://lottie.host/ff3883d6-13c1-4789-bec4-3edda705b83b/yjh56MTXlo.json"
+                                src="https://lottie.host/dfa68c2e-1a5f-4989-bce9-a1ca5d3bb813/zu03oiEhb6.json"
                                 className="loading"
                             >
                             </Player>
