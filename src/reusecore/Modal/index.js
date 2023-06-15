@@ -300,7 +300,7 @@ const Modal = ({ open, setOpen }) => {
                     else if (data.status == "notFound" && data.tag)
                         window.location.assign(`https://eprogram.store/account/register?email=${email}&view=${data.tag}&error=${data.status}`);
                     else if (data.status == "invited" && data.tag) {
-                        setReqError({ success: true, msg: "Votre compte est déjà créé, nous vous avons envoyé une invitation par courriel pour l’activer" })
+                        setReqError({ success: true, msg: "Votre compte est déjà créé, nous vous avons envoyé une invitation par Email pour l’activer" })
                     }
                     else {
                         window.location.assign(`https://eprogram.store/account/register`);

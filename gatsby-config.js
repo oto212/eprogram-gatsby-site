@@ -17,6 +17,13 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: `${process.env.GATSBY_GOOGLE_ANALYTICS_TRACKING_ID}`,
+        head: true, // Place the tracking script in the head tag
+      },
+    },
+    {
       resolve: "gatsby-plugin-anchor-links",
       options: {
         offset: -50,
