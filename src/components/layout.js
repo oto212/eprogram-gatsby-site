@@ -24,15 +24,6 @@ const Layout = ({ children }) => {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
-              <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMLP7R1ESV"></script>
-      <script>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-GMLP7R1ESV');
-        `}
-      </script>
       </Helmet>
       <ScrollToTop smooth color="white" width="20px" height="20px" style={{ backgroundColor: "#74acfe", padding: "10px 5px 5px 5px" }} />
       <LazyMotion features={domAnimation}>
