@@ -15,8 +15,8 @@ import { m, useAnimation } from "framer-motion";
 import Modal from "../../reusecore/Modal";
 
 var Options = [
-  { value: "Ressources humaines", label: "Ressources humaines", guide: "Appuyez sur Continuer si vous êtes un responsable RH ou équivalent. Merci de noter que cet email fera objet d'une demande d'entrevue avec notre responsable des comptes clients"},
-  { value: "Employee", label: "Employé",guide: "Merci de noter qu'en envoyant cet e-mail, vous exprimez votre intérêt pour eProgram auprès de votre responsable des ressources humaines."},
+  { value: "Ressources humaines", label: "Ressources humaines", guide: "Appuyez sur Continuer si vous êtes un responsable RH ou équivalent. Merci de noter que cet email fera objet d'une demande d'entrevue avec notre responsable des comptes clients" },
+  { value: "Employee", label: "Employé", guide: "Merci de noter qu'en envoyant cet e-mail, vous exprimez votre intérêt pour eProgram auprès de votre responsable des ressources humaines." },
 ];
 
 const customStyles = {
@@ -119,25 +119,29 @@ input {
     width: 100%!important
 }
 .flash {
-    width: 90%;
-    height: 45px;
+    max-width: 95%;
     position: absolute;
-    top: -15px;
+    top: -90px;
+    background-color:${props => props.theme.primaryLightColor};
     display: flex;
     flex-direction: row;
     gap: 5px;
-    justify-content: start;
+    text-align: center;
+    justify-content: center;
     align-items: center;
-    padding-left: 20px;
+    padding-inline: 20px;
+    padding-block: 10px;
     border-radius: 7px;
     color: white;
     animation: fadeInOut;
 }
-.success {
-  background-color: ${props => props.theme.green};
+.flash-success {
+    background-color:${props => props.theme.green};
+
 }
-.error {
-  background-color: ${props => props.theme.red};
+.flash-error {
+    background-color:${props => props.theme.red};
+    
 }
 .data-container {
     display: flex;
@@ -168,7 +172,7 @@ input {
 `;
 
 
-const Pricing = () => {
+const Pricing = ({ formMsg, setFormMsg }) => {
   const [selectOption, setSelectOption] = useState({ value: "Employee", label: "Employé" });
   const [loading, setLoading] = useState(false);
   const [open, setOpen] = useState(false);
@@ -181,48 +185,45 @@ const Pricing = () => {
   const emailCheck = (email) => {
     const isValid = /\S+@\S+\.\S+/.test(email);
     if (!isValid)
-        setValidError("Email invalide");
+      setValidError("Email invalide");
     else {
-        setLoading(true);
-        axios.post(`${process.env.GATSBY_BACK_API}/email-check`, {
-            email: email,
-        })
-            .then(response => {
-                console.log(response.data);
-                if (response.data.customers && response.data.customers.length) {
-                    if (response.data.customers[0]?.tags)
-                    {
-                        window.location.assign(`https://eprogram.store/?email=${email}&view=${response.data.customers[0]?.tags}`);
-                        setLoading(true);
-                        setOpen(false);
-                    }
+      setLoading(true);
+      axios.post(`${process.env.GATSBY_BACK_API}/email-check`, {
+        email: email,
+      })
+        .then(response => {
+          if (response.data.customers && response.data.customers.length) {
+            if (response.data.customers[0]?.tags) {
+              window.location.assign(`https://eprogram.store/?email=${email}&view=${response.data.customers[0]?.tags}`);
+              setLoading(true);
+              setOpen(false);
+            }
+          }
+          else {
+            axios.post(`${process.env.GATSBY_BACK_API}/company-check`, {
+              email: email,
+            })
+              .then(response => {
+                if (response.data[0]?.name) {
+                  window.location.assign(`https://eprogram.store/account/register?email=${email}&view=${response.data[0]?.name}`);
+                  setLoading(true);
+                  setOpen(false);
                 }
                 else {
-                    axios.post(`${process.env.GATSBY_BACK_API}/company-check`, {
-                        email: email,
-                    })
-                        .then(response => {
-                            if (response.data[0]?.name)
-                            {
-                                window.location.assign(`https://eprogram.store/account/register?email=${email}&view=${response.data[0]?.name}`);
-                                setLoading(true);
-                                setOpen(false);
-                            }
-                            else {
-                                setOpen(false);
-                                navigate("#pricing")
-                            }
-                        })
-                        .catch(error => {
-                            setReqError("company check error", error);
-                        });
+                  setOpen(false);
+                  navigate("#pricing")
                 }
-            })
-            .catch(error => {
-                setReqError("Api error", error)
-            });
+              })
+              .catch(error => {
+                setReqError("company check error", error);
+              });
+          }
+        })
+        .catch(error => {
+          setReqError("Api error", error)
+        });
     }
-}
+  }
 
   const handleSubmit = async (event) => {
     // setLoading(true)
@@ -242,14 +243,14 @@ const Pricing = () => {
     //     console.log(res);
     //     event.target.reset();
     //   }
-      // .then(response => {
-      //     console.log(response);
-      //     event.target.reset();
-      //   })
-      //   .catch(error => {
-      //     console.error(error);
-      //     event.target.reset();
-      //   });
+    // .then(response => {
+    //     console.log(response);
+    //     event.target.reset();
+    //   })
+    //   .catch(error => {
+    //     console.error(error);
+    //     event.target.reset();
+    //   });
 
     // }
     // catch (e) {
@@ -274,23 +275,19 @@ const Pricing = () => {
     event.persist();
     const data = new FormData(event.target);
     const email = data.get('email');
-    console.log(email); // or do whatever you want with the email value
     try {
       const res = await axios.post(`${process.env.GATSBY_BACK_API}/submit-form`, data);
       if (res.status === 200) {
         setLoading(false)
-        console.log(res);
         setOpen(false);
         event.target.reset();
       }
     }
     catch (e) {
-      console.log(e);
     }
   }
 
-  const ConfirmationModal = ({open,  setOpen , onConfirm, event }) => {
-    console.log("---------",selectOption);
+  const ConfirmationModal = ({ open, setOpen, onConfirm, event }) => {
 
     return (
       <OverlayContainer onClick={() => { setOpen(!open) }}>
@@ -298,9 +295,10 @@ const Pricing = () => {
           {/* <div className='flash error'>error</div> */}
           <div className='data-container'>
             <div className="form">
+
               <h3>Rappel</h3>
               <div style={{ textAlign: "center" }}>{selectOption?.value === "Employee" ? "Merci de noter qu'en envoyant cet e-mail, vous exprimez votre intérêt pour eProgram auprès de votre responsable des ressources humaines." : "Merci de noter que cet email fera objet d'une demande d'entrevue avec notre responsable des comptes clients."}</div>
-              <Button style={{marginTop: "10px"}} className="button" onClick={(e) => { onConfirm(event)}}>
+              <Button style={{ marginTop: "10px" }} className="button" onClick={(e) => { onConfirm(event) }}>
                 {!loading ? <span>Envoyer</span> :
                   <span>Chargement...</span>
                 }
@@ -330,6 +328,21 @@ const Pricing = () => {
   }
 
   useEffect(() => {
+    // Get the query string from the URL hash
+    const queryString = window.location.hash.substring(window.location.hash.indexOf('?') + 1);
+
+    // Parse the query string into key-value pairs
+    const params = new URLSearchParams(queryString);
+
+    // Read the "msg" parameter
+    const msg = params.get('msg');
+
+    // Use the parameter value as needed
+    if (msg == "success")
+      setFormMsg("Merci de remplir le formulaire pour pouvoir prendre contact avec vous ou votre RH"); // Output: hawhaw
+  }, []);
+
+  useEffect(() => {
     if (inView) {
       JoinFormAnimation.start("visible");
       return () => JoinFormAnimation.stop;
@@ -351,7 +364,8 @@ const Pricing = () => {
             </Col>
             <Col xs={12} lg={6} className="about-content-wrap">
 
-              <m.div ref={ref} animate={JoinFormAnimation} initial="hidden" variants={ProjectsButtonVariants} className="pricing-block">
+              <m.div style={{ position: "relative", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }} ref={ref} animate={JoinFormAnimation} initial="hidden" variants={ProjectsButtonVariants} className="pricing-block">
+                {formMsg && <div className="flash flash-success">{formMsg}</div>}
                 <SectionTitle
                   className="section-title"
                   leftAlign={true}

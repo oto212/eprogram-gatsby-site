@@ -22,6 +22,31 @@ const PricingSectionWrapper = styled.section`
             right: -4%;
         }
     }
+    .flash {
+        width: 90%;
+        position: absolute;
+        top: -50px;
+        background-color:${props => props.theme.primaryLightColor};
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 20px;
+        padding-block: 10px;
+        border-radius: 7px;
+        color: white;
+        animation: fadeInOut;
+    }
+    .flash-success {
+        background-color:${props => props.theme.green};
+    
+    }
+    .flash-error {
+        background-color:${props => props.theme.red};
+        
+    }
     .domain-search-block{
         .search-box{
             position: relative;

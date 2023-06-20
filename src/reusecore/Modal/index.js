@@ -266,7 +266,7 @@ input {
 // </script>
 // {%endif%}
 
-const Modal = ({ open, setOpen }) => {
+const Modal = ({ setFormMsg, setOpen }) => {
     const [email, setEmail] = useState("");
     const [reqError, setReqError] = useState(false);
     const [validError, setValidError] = useState(false);
@@ -303,7 +303,10 @@ const Modal = ({ open, setOpen }) => {
                         setReqError({ success: true, msg: "Votre compte est déjà créé, nous vous avons envoyé une invitation par Email pour l’activer" })
                     }
                     else {
-                        window.location.assign(`https://eprogram.store/account/register`);
+                        setOpen(false);
+                        navigate("#pricing");
+                        setFormMsg("Merci de remplir le formulaire pour pouvoir prendre contact avec vous ou votre RH")
+
                     }
                     // Handle the response data here
                 })

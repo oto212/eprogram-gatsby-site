@@ -25,6 +25,7 @@ import Modal from '../reusecore/Modal/index'
 
 const IndexPage = () => {
   const [modalOpen, setModalOpen] = useState(false);
+  const [formMsg, setFormMsg] = useState(false);
 
   return (
 
@@ -32,7 +33,7 @@ const IndexPage = () => {
       <GlobalStyle />
       <Layout >
         <SEO title="eProgram | Perks and Benefits" />
-        {modalOpen && <Modal open={modalOpen} setOpen={setModalOpen}/>}
+        {modalOpen && <Modal setFormMsg={setFormMsg} open={modalOpen} setOpen={setModalOpen}/>}
         <Navigation modalOpen={modalOpen} setModalOpen={setModalOpen}/>
         <Banner />
         <Counters />
@@ -41,7 +42,7 @@ const IndexPage = () => {
         <AppScreens />
         <Testimonial />
         <Faq />
-        <Pricing />
+        <Pricing formMsg={formMsg} setFormMsg={setFormMsg} />
         <Actuality />
         <Footer />
       </Layout>
