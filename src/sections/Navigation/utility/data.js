@@ -20,6 +20,11 @@ const Data = {
         path: "/#actuality",
         offset: "-50"
       },
+      {
+        name: "Pricing",
+        path: "/#actuality",
+        offset: "-50"
+      },
     ]
   };
   export default Data;

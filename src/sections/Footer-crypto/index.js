@@ -12,8 +12,11 @@ const Footer = () => {
           <a href="/#">
             <img loading="lazy" className="logo" src={logo} alt="logo" />
           </a>
+          <div className="calendar-container" style={{ alignItems: "start", gap: "5px", flexDirection: "column" }}>
+            <span>Contactez nous sur:</span><span>+212 772-878787</span>
+          </div>
           <a href="https://calendly.com/souhaila-mouchtanim-eprogram/call?month=2023-02" rel="noreferrer" target="_blank">
-            <div className="calendar-container" >
+            <div className="calendar-container">
               <img loading="lazy" alt="Calendar icon" src={CalendarIcon} />
               <span>Prenez rendez-vous avec notre account manager</span>
             </div>

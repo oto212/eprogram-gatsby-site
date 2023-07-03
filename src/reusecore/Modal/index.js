@@ -292,7 +292,6 @@ const Modal = ({ setFormMsg, setOpen }) => {
                 }
             })
                 .then(response => {
-                    console.log(response.data)
                     let data = response.data;
                     setLoading(false);
                     if (data.status == "enabled" && data.tag)
