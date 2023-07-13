@@ -286,7 +286,7 @@ const Modal = ({ setFormMsg, setOpen }) => {
             setValidError("Email invalide");
         else {
             setLoading(true);
-            axios.post('https://eprogram-test-back.onrender.com/state-check', { email: email }, {
+            axios.post(`${process.env.GATSBY_BACK_API}/state-check`, { email: email }, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
