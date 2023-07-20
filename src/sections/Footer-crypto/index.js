@@ -33,6 +33,7 @@ const Footer = () => {
             {/* <span>Company :</span> */}
             <a href="/about"><span>À propos</span></a>
             <a href="/mentions"><span>Mentions Légales</span></a>
+            <a href="/conditions"><span>Conditions générales d'utilisation</span></a>
             {/* <a href="/#faq"><span>FAQ's</span></a> */}
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "5px", flexDirection: "column" }}>
