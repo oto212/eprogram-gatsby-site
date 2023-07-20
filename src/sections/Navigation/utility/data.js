@@ -19,12 +19,7 @@ const Data = {
         name: "Actualités",
         path: "/#actuality",
         offset: "-50"
-      },
-      {
-        name: "Pricing",
-        path: "/#actuality",
-        offset: "-50"
-      },
+      }
     ]
   };
   export default Data;
