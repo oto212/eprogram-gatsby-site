@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `Perks and Benefits`,
     description: `Vos conventions simplifiées`,
-    author: `Novdisty`,
+    author: `STE NOV DISTY`,
   },
 
   plugins: [

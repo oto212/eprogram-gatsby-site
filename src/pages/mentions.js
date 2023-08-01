@@ -42,7 +42,7 @@ const Mentions = () => {
                         </SectionTitle>
                         <ContentMarkdown>
                             <p>
-                                L'édition du site est assurée par la société <b>NOVDISTY</b>.<br />Son siège social est situé au 33, rue
+                                L'édition du site est assurée par la société <b>STE NOV DISTY</b>.<br />Son siège social est situé au 33, rue
                                 Najib Mahfoud résidence art office 5eme étage Gauthier , Casablanca, Maroc.<br />
                                 <b>Contact :</b> contact@eprogram.store 07 72 87 87 87
                             </p>

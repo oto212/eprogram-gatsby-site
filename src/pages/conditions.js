@@ -17,15 +17,15 @@ import rehypeRaw from "rehype-raw";
 
 const content = `__PRÉAMBULE__
 
-La société Novdisty offre la faculté aux entreprises adhérentes à ses services (ci-après le(s) « Adhérent(s) ») de prendre soin de leurs collaborateurs en leur donnant accès à une plateforme de conventions digitalisées permettant d’acquérir une multitude de produits à prix réduits, accessible depuis le lien suivant:  www.eprogram.store (ci-après le « Site »).
+La société STE NOV DISTY offre la faculté aux entreprises adhérentes à ses services (ci-après le(s) « Adhérent(s) ») de prendre soin de leurs collaborateurs en leur donnant accès à une plateforme de conventions digitalisées permettant d’acquérir une multitude de produits à prix réduits, accessible depuis le lien suivant:  www.eprogram.store (ci-après le « Site »).
 
  
 
-Les présentes conditions générales (ci-après dénommées les « CGU») régissent ainsi les relations commerciales entre la société Novdisty, société à responsabilité limitée au capital de 100 000 dhs immatriculée au registre de commerce de Meknes .sous le numéro 41201, ayant son siège social au 33 rue Najib Mahfoud Casablanca identifiant fiscal……numéro d’inscription à la taxe professionnelle 17191648 .numéro ICE 001586953000079 (ci-après dénommée « Novdisty ») et toute personne déclarée par l’Adhérent comme étant l’un de ses salariés autorisé à effectuer un achat à titre non professionnel sur le Site  (ci-après dénommé le « Client »).
+Les présentes conditions générales (ci-après dénommées les « CGU») régissent ainsi les relations commerciales entre la société STE NOV DISTY, société à responsabilité limitée au capital de 100 000 dhs immatriculée au registre de commerce de Meknes .sous le numéro 41201, ayant son siège social au 33 rue Najib Mahfoud Casablanca identifiant fiscal……numéro d’inscription à la taxe professionnelle 17191648 .numéro ICE 001586953000079 (ci-après dénommée « STE NOV DISTY ») et toute personne déclarée par l’Adhérent comme étant l’un de ses salariés autorisé à effectuer un achat à titre non professionnel sur le Site  (ci-après dénommé le « Client »).
 
  
 
-Toute commande passée sur le Site est subordonnée à l’acceptation inconditionnelle et irrévocable des CGU par le Client. Novdisty se réserve le droit de modifier à n’importe quel moment ces CGU. 
+Toute commande passée sur le Site est subordonnée à l’acceptation inconditionnelle et irrévocable des CGU par le Client. STE NOV DISTY se réserve le droit de modifier à n’importe quel moment ces CGU. 
 
 Les CGU applicables seront celles en vigueur à la date de passation de la commande sur le Site par le Client.
 
@@ -38,22 +38,22 @@ Le Client déclare :
 être majeur et avoir la capacité de conclure le présent contrat,
 procéder à des achats uniquement pour son usage personnel et non pas à des fins de revente,
 être salarié de l’Adhérent à la date de la passation de la commande.
-garantir que les informations communiquées à Novdisty sont exactes et actualisées.
+garantir que les informations communiquées à STE NOV DISTY sont exactes et actualisées.
  
 
 ## Article 2 : Création d’un compte Client
 
  
 
-Pour accéder au Site, le Client devra cliquer sur un lien qui lui aura été adressé par l’Adhérent et sera invité à renseigner des identifiants d’accès pour permettre à Novdisty de s’assurer que l’utilisateur figure parmi les salariés autorisés de l’Adhérent.
+Pour accéder au Site, le Client devra cliquer sur un lien qui lui aura été adressé par l’Adhérent et sera invité à renseigner des identifiants d’accès pour permettre à STE NOV DISTY de s’assurer que l’utilisateur figure parmi les salariés autorisés de l’Adhérent.
 
  
 
-En cas d’impossibilité d’accès au Site, le Client devra en informer Novdisty en adressant un courrier électronique à l’adresse suivante : contact@eprogram.store
+En cas d’impossibilité d’accès au Site, le Client devra en informer STE NOV DISTY en adressant un courrier électronique à l’adresse suivante : contact@eprogram.store
 
  
 
-La responsabilité de Novdisty ne saurait en aucun cas être engagée par quelque membre du personnel de l’Adhérent qui n’aurait pas reçu le lien d’accès au Site ou qui bien que faisant partie des effectifs de l’Adhérent n’aurait pas eu accès au Site du fait qu’il ne figure pas parmi les salariés autorisés par ce dernier à bénéficier des prestations de Novdisty.
+La responsabilité de STE NOV DISTY ne saurait en aucun cas être engagée par quelque membre du personnel de l’Adhérent qui n’aurait pas reçu le lien d’accès au Site ou qui bien que faisant partie des effectifs de l’Adhérent n’aurait pas eu accès au Site du fait qu’il ne figure pas parmi les salariés autorisés par ce dernier à bénéficier des prestations de STE NOV DISTY.
 
  
 
@@ -65,30 +65,30 @@ Il sera ensuite invité à choisir un identifiant et un mot de passe (ci-après 
 
  
 
-En cas de perte ou de vol ou de détournement de ses Identifiants par un tiers, le Client s’engage à en avertir Novdisty, sans délai, par courrier électronique à l’adresse suivante : contact@eprogram.store
+En cas de perte ou de vol ou de détournement de ses Identifiants par un tiers, le Client s’engage à en avertir STE NOV DISTY, sans délai, par courrier électronique à l’adresse suivante : contact@eprogram.store
 
  
 
-Toute modification de ses coordonnées devra être communiquée par le Client à Novdisty, soit par mail en utilisant l’adresse électronique suivante : contact@eprogram.store soit en actualisant ses coordonnées directement sur le la plateforme via le lien électronique suivant : https://eprogram.store/account/ et ce, préalablement toute commande de Produits. A défaut, ces modifications ne seront pas opposables à Novdisty. Novdisty ne pourra donc pas être tenue responsable de la non réception par le Client d’une commande, ou d’une erreur dans les données d’identification fournies par le Client.
+Toute modification de ses coordonnées devra être communiquée par le Client à STE NOV DISTY, soit par mail en utilisant l’adresse électronique suivante : contact@eprogram.store soit en actualisant ses coordonnées directement sur le la plateforme via le lien électronique suivant : https://eprogram.store/account/ et ce, préalablement toute commande de Produits. A défaut, ces modifications ne seront pas opposables à STE NOV DISTY. STE NOV DISTY ne pourra donc pas être tenue responsable de la non réception par le Client d’une commande, ou d’une erreur dans les données d’identification fournies par le Client.
 
  
 
 ## Article 3 : Produits 
 
-Les Produits  proposés à la vente par Novdisty sont ceux visibles sur le Site au jour de sa consultation par le Client et/ou sur les catalogues webs remis par Novdisty à certains de ses Adhérents.
+Les Produits  proposés à la vente par STE NOV DISTY sont ceux visibles sur le Site au jour de sa consultation par le Client et/ou sur les catalogues webs remis par STE NOV DISTY à certains de ses Adhérents.
 
  
 
 Le Client est invité à consulter la disponibilité des articles vendus mentionnée sur la page d’information de chaque Produit.
 
-Les Produits proposés à la vente par Novdisty peuvent varier d’un Client à un autre, en raison de l’inéligibilité de certains Clients à certains Produits pour répondre aux  exigences de certains Adhérents et/ou de certains fournisseurs.
+Les Produits proposés à la vente par STE NOV DISTY peuvent varier d’un Client à un autre, en raison de l’inéligibilité de certains Clients à certains Produits pour répondre aux  exigences de certains Adhérents et/ou de certains fournisseurs.
 
 Le nombre maximal de Produits pouvant être acheté par Client est mentionné sur la page d’information de chaque Produit.
 
 
-Les Produits sont proposés dans la limite des stocks disponibles chez le fournisseur ou chez Novdisty. La disponibilité des Produits est vérifiée par Novdisty au moment de la préparation de la commande.
+Les Produits sont proposés dans la limite des stocks disponibles chez le fournisseur ou chez STE NOV DISTY. La disponibilité des Produits est vérifiée par STE NOV DISTY au moment de la préparation de la commande.
 
-En cas de commande d’un Produit qui s’avérerait indisponible après passation de la commande, Novdisty en avertira le Client par téléphone ou par courrier électronique dans les meilleurs délais et un Produit de substitution pourra  éventuellement lui être alors proposé, équivalent par sa qualité et son prix au Produit initialement commandé. S’il n’existe aucun Produit alternatif, ou si le Produit proposé en remplacement n’est pas accepté par le Client, Novdisty procèdera alors au remboursement des sommes versées (Prix du Produit indisponible et frais de livraison) par le Client dans les meilleurs délais et au plus tard dans les quinze (15) jours suivant le paiement des sommes qu’il a versées, sans être toutefois tenue à aucune indemnité d’annulation.
+En cas de commande d’un Produit qui s’avérerait indisponible après passation de la commande, STE NOV DISTY en avertira le Client par téléphone ou par courrier électronique dans les meilleurs délais et un Produit de substitution pourra  éventuellement lui être alors proposé, équivalent par sa qualité et son prix au Produit initialement commandé. S’il n’existe aucun Produit alternatif, ou si le Produit proposé en remplacement n’est pas accepté par le Client, STE NOV DISTY procèdera alors au remboursement des sommes versées (Prix du Produit indisponible et frais de livraison) par le Client dans les meilleurs délais et au plus tard dans les quinze (15) jours suivant le paiement des sommes qu’il a versées, sans être toutefois tenue à aucune indemnité d’annulation.
 
  
 
@@ -96,7 +96,7 @@ Chaque Produit proposé à la vente sur le Site est accompagné, dans sa fiche p
 
  
 
-Chaque Produit est également accompagné d’une ou plusieurs photographies, pour la plupart données par le fabricant ou fournisseur du produit, et dont la fonction est exclusivement illustrative et non contractuelle. Par conséquent, la différence entre les Produits et les  visuels de présentation ne peut engager la responsabilité de Novdisty, qui fournira cependant ses meilleurs efforts pour que la représentation des Produits soit la plus fidèle possible.  
+Chaque Produit est également accompagné d’une ou plusieurs photographies, pour la plupart données par le fabricant ou fournisseur du produit, et dont la fonction est exclusivement illustrative et non contractuelle. Par conséquent, la différence entre les Produits et les  visuels de présentation ne peut engager la responsabilité de STE NOV DISTY, qui fournira cependant ses meilleurs efforts pour que la représentation des Produits soit la plus fidèle possible.  
 
  
 
@@ -104,11 +104,11 @@ Chaque Produit est également accompagné d’une ou plusieurs photographies, po
 
 ## Article 4: Prix
 
-Le prix des Produits ont été préalablement négociés par Novdisty auprès de ses fournisseurs afin d’obtenir des offres exclusives à des tarifs préférentiels, représentant en moyenne une réduction de Dix (10%) par rapport au prix de vente public desdits Produits communiqués par les representations locales des marques commercialisées sous l’intitulé “Prix Public Conseillé/” ou “Prix Public Reccomandé” , le tout sauf promotions exceptionnelles pouvant exister dans d’autres établissements au même moment.
+Le prix des Produits ont été préalablement négociés par STE NOV DISTY auprès de ses fournisseurs afin d’obtenir des offres exclusives à des tarifs préférentiels, représentant en moyenne une réduction de Dix (10%) par rapport au prix de vente public desdits Produits communiqués par les representations locales des marques commercialisées sous l’intitulé “Prix Public Conseillé/” ou “Prix Public Reccomandé” , le tout sauf promotions exceptionnelles pouvant exister dans d’autres établissements au même moment.
 
  
 
-Le Client règle l’ensemble des frais liés à sa commande directement à Novdisty.
+Le Client règle l’ensemble des frais liés à sa commande directement à STE NOV DISTY.
 
  
 
@@ -119,7 +119,7 @@ Le taux de TVA applicable  est celui en vigueur au jour de l’enregistrement de
 
  
 
-Chaque Produit proposé par Novdisty est soumis aux conditions générales d’utilisation du fournisseur du Produit en question qui sont consultables sur : https://www.eprogram.store/pages/warranty
+Chaque Produit proposé par STE NOV DISTY est soumis aux conditions générales d’utilisation du fournisseur du Produit en question qui sont consultables sur : https://www.eprogram.store/pages/warranty
 
 
 
@@ -128,11 +128,11 @@ Chaque Produit proposé par Novdisty est soumis aux conditions générales d’u
 
 Le Client dispose dans son espace personnel d’un compte e-cadeau pouvant être crédité par son l’Adhérent et qu’il pourra utiliser pour tous ses achats sur le Site (ci-après le « Compte e-cadeau»).
 
-Les sommes mentionnées sur le compte e-cadeau correspondent ainsi à des bons d’achat payés par l’Entreprise Partenaire auprès de Novdisty pour le compte du Client afin que celui-ci puisse en bénéficier sur le Site dans les conditions ci-après.
+Les sommes mentionnées sur le compte e-cadeau correspondent ainsi à des bons d’achat payés par l’Entreprise Partenaire auprès de STE NOV DISTY pour le compte du Client afin que celui-ci puisse en bénéficier sur le Site dans les conditions ci-après.
 
  
 
-Les sommes portées au crédit du compte e-cadeau ne sont pas transférables à un autre compte et ne peuvent ni être reprises ni remboursées. Elles sont utilisables uniquement sur le Site en déduction du prix des Produits sélectionnés par le Client et pour une durée de 12 mois à compter de la date de réception par le Client de la notification de crédit de son compte e-cadeau qui lui sera faite par Novdisty à son adresse électronique
+Les sommes portées au crédit du compte e-cadeau ne sont pas transférables à un autre compte et ne peuvent ni être reprises ni remboursées. Elles sont utilisables uniquement sur le Site en déduction du prix des Produits sélectionnés par le Client et pour une durée de 12 mois à compter de la date de réception par le Client de la notification de crédit de son compte e-cadeau qui lui sera faite par STE NOV DISTY à son adresse électronique
 
  
 
@@ -179,7 +179,7 @@ Le Client pourra également suivre le traitement de sa commande en consultant la
 
  
 
-Pour avoir plus d’informations sur le passage, le suivi ou l’exécution de sa commande, de questions sur les délais de livraison, les conditions d’exercice de son droit de rétractation ou toute autre question, le Client peut contacter Novdisty 
+Pour avoir plus d’informations sur le passage, le suivi ou l’exécution de sa commande, de questions sur les délais de livraison, les conditions d’exercice de son droit de rétractation ou toute autre question, le Client peut contacter STE NOV DISTY 
 
 
 
@@ -189,18 +189,18 @@ Pour avoir plus d’informations sur le passage, le suivi ou l’exécution de s
 Le paiement des Produits doit être réalisé au moment de la passation de la commande en utilisant l’un des moyens suivants  :
 
 paiement sécurisé en ligne par carte bancaire (Carte visa, mastercard ou e-carte bancaire marocaine),
-chèque bancaire émis par une banque domiciliée au Maroc exclusivement et libellé à l’ordre de Novdisty,
+chèque bancaire émis par une banque domiciliée au Maroc exclusivement et libellé à l’ordre de STE NOV DISTY,
 virement bancaire,
 débit du compte e-cadeau, en cas de solde créditeur.
-Les cartes bancaires et les chèques bancaires sont encaissés à la passation de la commande. Cette dernière n’est définitivement validée qu’après encaissement du prix total par Novdisty. En conséquence, toutes les Produits commandés demeurent la propriété de Novdisty, jusqu’au complet paiement du prix, le cas échéant augmenté des intérêts.
+Les cartes bancaires et les chèques bancaires sont encaissés à la passation de la commande. Cette dernière n’est définitivement validée qu’après encaissement du prix total par STE NOV DISTY. En conséquence, toutes les Produits commandés demeurent la propriété de STE NOV DISTY, jusqu’au complet paiement du prix, le cas échéant augmenté des intérêts.
 
  
 
-Novdisty garantit la sécurité du paiement par carte bancaire en utilisant le système du Centre Monétique Interbancaire (CMI).
+STE NOV DISTY garantit la sécurité du paiement par carte bancaire en utilisant le système du Centre Monétique Interbancaire (CMI).
 
-Les données bancaires du Client seront retransmises à la banque désignée ci-dessus, avec sécurisation SSL via la plateforme CMI de sorte qu’à aucun moment elles ne transitent sur le système informatique de Novdisty.
+Les données bancaires du Client seront retransmises à la banque désignée ci-dessus, avec sécurisation SSL via la plateforme CMI de sorte qu’à aucun moment elles ne transitent sur le système informatique de STE NOV DISTY.
 
-Le paiement à la livraison lors de la réception de la commande est possible sur une sélection de Produits, sous réserve d’avoir expressément été autorisé par Novdisty.
+Le paiement à la livraison lors de la réception de la commande est possible sur une sélection de Produits, sous réserve d’avoir expressément été autorisé par STE NOV DISTY.
 
  
 
@@ -213,13 +213,13 @@ Carte nationale d’identité,
 3 derniers relevés bancaires.
 (ii) Transmission du dossier à Wafasalaf
 
-Novdisty transmettra le dossier à Wafasalaf qui devrait examiner la demande et adresser sa réponse au Client dans un délai de 24 heures ouvrés à compter de la date de reception du dossier complet par la plateforme .
+STE NOV DISTY transmettra le dossier à Wafasalaf qui devrait examiner la demande et adresser sa réponse au Client dans un délai de 24 heures ouvrés à compter de la date de reception du dossier complet par la plateforme .
 
-Novdisty se dégage de toute responsabilité par rapport à l’étude, le suivi et l’issue de la demande de crédit et aux délais de traitement de cette demande de financement qui relèvent de l’entière discrétion de Wafasalaf.
+STE NOV DISTY se dégage de toute responsabilité par rapport à l’étude, le suivi et l’issue de la demande de crédit et aux délais de traitement de cette demande de financement qui relèvent de l’entière discrétion de Wafasalaf.
 
  
 
-Novdisty se réserve le droit d’annuler ou de refuser toute commande d’un Client qui n’aurait pas honoré une commande antérieure. Les données enregistrées par Novdisty constituent la preuve de l’ensemble des transactions passées entre Novdisty et les Clients.
+STE NOV DISTY se réserve le droit d’annuler ou de refuser toute commande d’un Client qui n’aurait pas honoré une commande antérieure. Les données enregistrées par STE NOV DISTY constituent la preuve de l’ensemble des transactions passées entre STE NOV DISTY et les Clients.
 
  
 
@@ -229,7 +229,7 @@ Novdisty se réserve le droit d’annuler ou de refuser toute commande d’un Cl
 
  
 
-Dès réception du paiement de l’intégralité du prix de la commande, Novdisty adresse au Client le Produit par courrier recommandé ou suivi ou par tout autre moyen permettant de suivre l’acheminement et la réception du Produit ou par le biais d’un transporteur en cas de Produit volumineux.
+Dès réception du paiement de l’intégralité du prix de la commande, STE NOV DISTY adresse au Client le Produit par courrier recommandé ou suivi ou par tout autre moyen permettant de suivre l’acheminement et la réception du Produit ou par le biais d’un transporteur en cas de Produit volumineux.
 
  
 
@@ -239,15 +239,15 @@ Toutefois, le Client reconnaît avoir été informé que dépendamment du Produi
 
  
 
-Le Client reconnaît que la prestation de Novdisty pour l’acheminement de la commande s’arrête à la livraison à l’adresse indiquée dans sa commande. La livraison s’entend au pied de l’immeuble à l’adresse indiquée par le Client et en présence de celui-ci ou de toute personne habilitée à réceptionner la marchandise. Les livreurs ne sont pas tenus d’entrer dans le domicile du Client.  Novdisty ne procèdera donc pas à la livraison des commandes qui doivent être livrées en étage.
+Le Client reconnaît que la prestation de STE NOV DISTY pour l’acheminement de la commande s’arrête à la livraison à l’adresse indiquée dans sa commande. La livraison s’entend au pied de l’immeuble à l’adresse indiquée par le Client et en présence de celui-ci ou de toute personne habilitée à réceptionner la marchandise. Les livreurs ne sont pas tenus d’entrer dans le domicile du Client.  STE NOV DISTY ne procèdera donc pas à la livraison des commandes qui doivent être livrées en étage.
 
  
 
-Le Client est responsable de la fourniture de coordonnées claires et précises de livraison. A défaut Novdisty ne pourrait être tenue responsable de retards ou d’absence éventuels de livraison due à l’inexactitude de ces renseignements. En cas de nouvelle livraison due à une erreur dans ces renseignements, les frais de réexpédition sont facturés au Client.
+Le Client est responsable de la fourniture de coordonnées claires et précises de livraison. A défaut STE NOV DISTY ne pourrait être tenue responsable de retards ou d’absence éventuels de livraison due à l’inexactitude de ces renseignements. En cas de nouvelle livraison due à une erreur dans ces renseignements, les frais de réexpédition sont facturés au Client.
 
-En cas d’absence du Client à son domicile lors de la livraison ou de la personne autorisée à réceptionner la commande, il incombe au Client de prévenir Novdisty dans au minimum cinq (5) jours ouvrés avant la date de livraison convenue. A défaut, le surcoût lié aux présentations supplémentaires sera facturé par le Site au Client.
+En cas d’absence du Client à son domicile lors de la livraison ou de la personne autorisée à réceptionner la commande, il incombe au Client de prévenir STE NOV DISTY dans au minimum cinq (5) jours ouvrés avant la date de livraison convenue. A défaut, le surcoût lié aux présentations supplémentaires sera facturé par le Site au Client.
 
-Les délais de livraison annoncés par Novdisty constituent une obligation de moyen et non une obligation de résultat. Novdisty ne saurait être tenue responsable ni des aléas de livraison de ses fournisseurs ou ceux des transporteurs.
+Les délais de livraison annoncés par STE NOV DISTY constituent une obligation de moyen et non une obligation de résultat. STE NOV DISTY ne saurait être tenue responsable ni des aléas de livraison de ses fournisseurs ou ceux des transporteurs.
 
  
 
@@ -255,22 +255,22 @@ Les délais de livraison annoncés par Novdisty constituent une obligation de mo
 
  
 
-Le Client peut retourner les Produits commandés en exerçant son droit de rétractation, ou en cas de constatation de la non-conformité ou d’un vice affectant les Produits commandés selon les modalités décrites ci-après. En l’absence de respect des procédures et délais mentionnés aux présentes, Novdisty n’accèdera à aucune demande d’échange ou de remboursement émanant du Client.
+Le Client peut retourner les Produits commandés en exerçant son droit de rétractation, ou en cas de constatation de la non-conformité ou d’un vice affectant les Produits commandés selon les modalités décrites ci-après. En l’absence de respect des procédures et délais mentionnés aux présentes, STE NOV DISTY n’accèdera à aucune demande d’échange ou de remboursement émanant du Client.
 
  
 
 En cas de retour anormal ou abusif ou renvoi du Produit sans numéro de retour, ce retour sera considéré comme non conforme et rejeté. 
 
-Le Client est libre de souscrire ou non une assurance en cas de perte, de vol ou de destruction de son colis, mais Novdisty ne prend pas en charge ces frais et ne saurait être tenue pour responsable de la non réception du colis retourné par le Client.
+Le Client est libre de souscrire ou non une assurance en cas de perte, de vol ou de destruction de son colis, mais STE NOV DISTY ne prend pas en charge ces frais et ne saurait être tenue pour responsable de la non réception du colis retourné par le Client.
 
 
 
 
 8.1 Conformité du Produit à la commande :
 
-Novdisty demande au Client de vérifier impérativement en présence du livreur la conformité de son produit.
+STE NOV DISTY demande au Client de vérifier impérativement en présence du livreur la conformité de son produit.
 
-Toute anomalie lors de la livraison devra être signalée, datée et signée sur le bordereau de livraison ainsi qu’à Novdisty à l’adresse email suivante contact@eprogram.store et ce,dans un délai maximum de 2 jours qui suivent celui de la réception.
+Toute anomalie lors de la livraison devra être signalée, datée et signée sur le bordereau de livraison ainsi qu’à STE NOV DISTY à l’adresse email suivante contact@eprogram.store et ce,dans un délai maximum de 2 jours qui suivent celui de la réception.
 
 En cas de livraison non conforme à la commande du Client, ce dernier pourra par suite obtenir l’échange ou le remboursement du des produits à condition qu’ils soient retournés en l’état de livraison initial et selon les modalités de remboursement spécifiées par le Client sur le bon de retour parmi les modalités qui lui sont proposées.
 
@@ -282,11 +282,11 @@ Conformément à l’article 65 de la loi 31-08 relative à la protection du con
 
  
 
-Si la mise en jeu de la garantie légale est applicable, le Client peut poursuivre la résolution de la vente et la restitution du prix en adressant un courrier recommandé avec accusé de réception à Novdisty à l'adresse figurant en préambule des présentes CGU. S'il préfère conserver le(s) produit(s) concerné(s), il n'a droit à aucune diminution de prix.
+Si la mise en jeu de la garantie légale est applicable, le Client peut poursuivre la résolution de la vente et la restitution du prix en adressant un courrier recommandé avec accusé de réception à STE NOV DISTY à l'adresse figurant en préambule des présentes CGU. S'il préfère conserver le(s) produit(s) concerné(s), il n'a droit à aucune diminution de prix.
 
  
 
-En cas de résolution de la vente par le Client, ce dernier doit restituer le produit concerné, tel qu'il l'a reçu (neuf, complet, dans son état et emballage d'origine après réception avec ses accessoires et ce qui en faisait partie). Les frais de réexpédition, en cas de mise en œuvre de la garantie légale par le Client, sont à la charge de Novdisty. 
+En cas de résolution de la vente par le Client, ce dernier doit restituer le produit concerné, tel qu'il l'a reçu (neuf, complet, dans son état et emballage d'origine après réception avec ses accessoires et ce qui en faisait partie). Les frais de réexpédition, en cas de mise en œuvre de la garantie légale par le Client, sont à la charge de STE NOV DISTY. 
 
 Le Client n'a droit à aucune restitution, ni diminution de prix, s'il ne peut restituer la chose dans les cas visés à l'article 562 du Dahir des Obligations et des Contrats.
 
@@ -296,17 +296,17 @@ Le Client dispose d’un délai de Sept (7) jours francs à compter de la date d
 
  
 
-Le Client devra effectuer sa demande de rétraction par courrier postal au siège social de Novdisty 33 rue Najib Mahfoud, Casablanca en envoyant le formulaire type de rétractation disponible ici :……….
+Le Client devra effectuer sa demande de rétraction par courrier postal au siège social de STE NOV DISTY 33 rue Najib Mahfoud, Casablanca en envoyant le formulaire type de rétractation disponible ici :……….
 
 ou en envoyant un email comprenant les mêmes informations que le formulaire type de rétractation à l’adresse contact@eprogram.store
 
  
 
-Lorsque le droit de rétractation est valablement exercé, Novdisty remboursera le Client le montant total payé par le Client (y compris les frais de livraison )au plus tard dans les quinze (15) jours suivant la date à laquelle le droit a été exercé et selon les modalités de remboursement spécifiées par le Client sur le bon de retour parmi les modalités qui lui sont proposées.  
+Lorsque le droit de rétractation est valablement exercé, STE NOV DISTY remboursera le Client le montant total payé par le Client (y compris les frais de livraison )au plus tard dans les quinze (15) jours suivant la date à laquelle le droit a été exercé et selon les modalités de remboursement spécifiées par le Client sur le bon de retour parmi les modalités qui lui sont proposées.  
 
  
 
-En cas de rétractation par le Client, celui-ci devra renvoyer ou rendre le bien à Novdisty  à l’adresse mentionnée sur le Site, au 33 rue Najib Mahfoud, Casablanca sans délai et, en tout état de cause, au plus tard sept (7) jours après la réception du bien concerné. Les retours de biens réexpédiés au-delà de ce délai ne seront pas acceptés. Le produit concerné devra être restitué tel qu’il l’a reçu (neuf, non utilisé, complet, en parfait état de revente et dans son emballage d’origine après réception avec ses accessoires et documentation  (manuels d’utilisation, garantie etc…..,et tout ce qui en faisait partie) sans avoir subi une quelconque dépréciation résultant de manipulations autres que celles nécessaires pour établir la nature, les caractéristiques et le bon fonctionnement de ce ou ces biens et être accompagné de l’original de la facture de vente, dont le Client conservera une copie.
+En cas de rétractation par le Client, celui-ci devra renvoyer ou rendre le bien à STE NOV DISTY  à l’adresse mentionnée sur le Site, au 33 rue Najib Mahfoud, Casablanca sans délai et, en tout état de cause, au plus tard sept (7) jours après la réception du bien concerné. Les retours de biens réexpédiés au-delà de ce délai ne seront pas acceptés. Le produit concerné devra être restitué tel qu’il l’a reçu (neuf, non utilisé, complet, en parfait état de revente et dans son emballage d’origine après réception avec ses accessoires et documentation  (manuels d’utilisation, garantie etc…..,et tout ce qui en faisait partie) sans avoir subi une quelconque dépréciation résultant de manipulations autres que celles nécessaires pour établir la nature, les caractéristiques et le bon fonctionnement de ce ou ces biens et être accompagné de l’original de la facture de vente, dont le Client conservera une copie.
 
  
 
@@ -337,16 +337,16 @@ En cas de dommage causé par un défaut de sécurité du produit, le Client doit
 
  
 
-Novdisty ne sera pas responsable de la non-exécution totale ou partielle de ses obligations au titre du présent contrat, si cette non-exécution résulte, soit du Client, soit d’un tiers, soit d’un cas de force majeure telle que définie à l’article 269 du Dahir des Obligations et des Contrats.
+STE NOV DISTY ne sera pas responsable de la non-exécution totale ou partielle de ses obligations au titre du présent contrat, si cette non-exécution résulte, soit du Client, soit d’un tiers, soit d’un cas de force majeure telle que définie à l’article 269 du Dahir des Obligations et des Contrats.
 
 
-La responsabilité de Novdisty ne saurait également être engagée pour tous les inconvénients ou dommages inhérents à l’utilisation du réseau Internet, notamment une rupture du service, une intrusion extérieure ou la présence de virus informatiques.
+La responsabilité de STE NOV DISTY ne saurait également être engagée pour tous les inconvénients ou dommages inhérents à l’utilisation du réseau Internet, notamment une rupture du service, une intrusion extérieure ou la présence de virus informatiques.
 
 ## Article 10: Données personnelles
 
-Pour en savoir plus sur les engagements de Novdisty en matière de traitement et de protection des données à caractère personnel, le Client peut consulter la rubrique « Politique en matière de protection des données et de cookies ».
+Pour en savoir plus sur les engagements de STE NOV DISTY en matière de traitement et de protection des données à caractère personnel, le Client peut consulter la rubrique « Politique en matière de protection des données et de cookies ».
 
-Les données recueillies sur le Site font l'objet d'un traitement par Novdisty en tant que responsable de traitement, destiné notamment à :
+Les données recueillies sur le Site font l'objet d'un traitement par STE NOV DISTY en tant que responsable de traitement, destiné notamment à :
 
 l’enregistrement et la gestion du panier d’achat, des commandes et la fourniture des produits ou services commandés, 
 la comptabilité pour  l’émission des factures  Client correspondantes, 
@@ -365,7 +365,7 @@ Conformément à la loi n° 09-08 relative à la protection des personnes physiq
 
 Adresse mail : conformité@eprogram.ma  Téléphone : +212  (0) 701-110990
 
-Si le Client l’a préalablement accepté, il pourra recevoir des emails ou des SMS marketing de Novdisty dont il pourra se désinscrire conformément aux instructions figurant dans lesdits emails ou SMS.
+Si le Client l’a préalablement accepté, il pourra recevoir des emails ou des SMS marketing de STE NOV DISTY dont il pourra se désinscrire conformément aux instructions figurant dans lesdits emails ou SMS.
 
 
 
@@ -376,13 +376,13 @@ Si le Client l’a préalablement accepté, il pourra recevoir des emails ou des
 L’intégralité de ce Site est protégée par les législations relatives à la propriété intellectuelle. Tous les droits de reproduction sont réservés.
 
 
-L’ensemble des textes composant les pages de ce site ne peut, conformément aux dispositions du code de la propriété intellectuelle, faire l’objet d’une quelconque représentation ou reproduction, intégrale ou partielle, sur quelque support que ce soit, sans l’autorisation expresse et préalable de Novdisty. De même, les marques, noms commerciaux et logos figurant sur ce site sont déposés. Leur reproduction totale ou partielle, effectuée à partir des éléments du site est prohibée.
+L’ensemble des textes composant les pages de ce site ne peut, conformément aux dispositions du code de la propriété intellectuelle, faire l’objet d’une quelconque représentation ou reproduction, intégrale ou partielle, sur quelque support que ce soit, sans l’autorisation expresse et préalable de STE NOV DISTY. De même, les marques, noms commerciaux et logos figurant sur ce site sont déposés. Leur reproduction totale ou partielle, effectuée à partir des éléments du site est prohibée.
 
  
 
 Le Client reconnait expressément que le Site, ses composants, options et fonctionnalités sont protégés par différents droits de propriété intellectuelle, comprenant des droits d’auteur (notamment sur les aspects visuels, graphiques ou littéraires du Site, ses photographies ou illustrations, son interface utilisateur, le ou les logiciel(s) sous-jacent(s) au Site, les critères d’organisation ou d’ordonnancement constitutifs d’une base de données), des droits sur les marques, des appellations et dénominations commerciales, nom de domaine ainsi qu’un savoir-faire, des méthodes et procédés constitutifs d’un travail créatif et résultant d’un investissement de la part de la Société.
 
-Ces droits appartiennent exclusivement à Novdisty (ou aux tiers intervenus dans la conception, la création et la mise en place du Site). Le Client n'acquiert aucun de ces droits et a comme unique faculté celle d'accéder au Site et de visualiser son contenu.
+Ces droits appartiennent exclusivement à STE NOV DISTY (ou aux tiers intervenus dans la conception, la création et la mise en place du Site). Le Client n'acquiert aucun de ces droits et a comme unique faculté celle d'accéder au Site et de visualiser son contenu.
 
 Par conséquent, le Client s’interdit de reproduire, prélever, extraire, partager, faire de l’ingénierie inversée, compiler, décompiler, communiquer ou exploiter d’une quelconque façon tout ou partie du Site.
 
