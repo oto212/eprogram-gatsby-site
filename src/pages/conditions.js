@@ -15,7 +15,7 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from "rehype-raw";
 
 
-const content = ` PRÉAMBULE
+const content = ` __PRÉAMBULE__
 
  
 
