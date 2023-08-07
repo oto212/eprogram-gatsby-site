@@ -15,13 +15,15 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from "rehype-raw";
 
 
-const content = `__PRÉAMBULE__
+const content = ` PRÉAMBULE
+
+ 
 
 La société STE NOV DISTY offre la faculté aux entreprises adhérentes à ses services (ci-après le(s) « Adhérent(s) ») de prendre soin de leurs collaborateurs en leur donnant accès à une plateforme de conventions digitalisées permettant d’acquérir une multitude de produits à prix réduits, accessible depuis le lien suivant:  www.eprogram.store (ci-après le « Site »).
 
  
 
-Les présentes conditions générales (ci-après dénommées les « CGU») régissent ainsi les relations commerciales entre la société STE NOV DISTY, société à responsabilité limitée au capital de 100 000 dhs immatriculée au registre de commerce de Meknes .sous le numéro 41201, ayant son siège social au 33 rue Najib Mahfoud Casablanca identifiant fiscal……numéro d’inscription à la taxe professionnelle 17191648 .numéro ICE 001586953000079 (ci-après dénommée « STE NOV DISTY ») et toute personne déclarée par l’Adhérent comme étant l’un de ses salariés autorisé à effectuer un achat à titre non professionnel sur le Site  (ci-après dénommé le « Client »).
+Les présentes conditions générales (ci-après dénommées les « CGU») régissent ainsi les relations commerciales entre la société STE NOV DISTY, société à responsabilité limitée au capital de 125 000 dhs immatriculée au registre de commerce de Casablanca .sous le numéro 555203 , ayant son siège social au 33 rue Najib Mahfoud Casablanca identifiant fisca18774736 numéro d’inscription à la taxe professionnelle 17191648 .numéro ICE 001586953000079 (ci-après dénommée « STE NOV DISTY») et toute personne déclarée par l’Adhérent comme étant l’un de ses salariés autorisé à effectuer un achat à titre non professionnel sur le Site  (ci-après dénommé le « Client »).
 
  
 
@@ -53,7 +55,7 @@ En cas d’impossibilité d’accès au Site, le Client devra en informer STE NO
 
  
 
-La responsabilité de STE NOV DISTY ne saurait en aucun cas être engagée par quelque membre du personnel de l’Adhérent qui n’aurait pas reçu le lien d’accès au Site ou qui bien que faisant partie des effectifs de l’Adhérent n’aurait pas eu accès au Site du fait qu’il ne figure pas parmi les salariés autorisés par ce dernier à bénéficier des prestations de STE NOV DISTY.
+La responsabilité de STE NOV DISTY ne saurait en aucun cas être engagée par quelque membre du personnel de l’Adhérent qui n’aurait pas reçu le lien d’accès au Site ou qui bien que faisant partie des effectifs de l’Adhérent n’aurait pas eu accès au Site du fait qu’il ne figure pas parmi les salariés autorisés par ce dernier à bénéficier des prestations de STE NOV DISTY .
 
  
 
@@ -96,7 +98,7 @@ Chaque Produit proposé à la vente sur le Site est accompagné, dans sa fiche p
 
  
 
-Chaque Produit est également accompagné d’une ou plusieurs photographies, pour la plupart données par le fabricant ou fournisseur du produit, et dont la fonction est exclusivement illustrative et non contractuelle. Par conséquent, la différence entre les Produits et les  visuels de présentation ne peut engager la responsabilité de STE NOV DISTY, qui fournira cependant ses meilleurs efforts pour que la représentation des Produits soit la plus fidèle possible.  
+Chaque Produit est également accompagné d’une ou plusieurs photographies, pour la plupart données par le fabricant ou fournisseur du produit, et dont la fonction est exclusivement illustrative et non contractuelle. Par conséquent, la différence entre les Produits et les  visuels de présentation ne peut engager la responsabilité de STE NOV DISTY , qui fournira cependant ses meilleurs efforts pour que la représentation des Produits soit la plus fidèle possible.  
 
  
 
@@ -108,7 +110,7 @@ Le prix des Produits ont été préalablement négociés par STE NOV DISTY aupr�
 
  
 
-Le Client règle l’ensemble des frais liés à sa commande directement à STE NOV DISTY.
+Le Client règle l’ensemble des frais liés à sa commande directement à STE NOV DISTY .
 
  
 
@@ -179,7 +181,7 @@ Le Client pourra également suivre le traitement de sa commande en consultant la
 
  
 
-Pour avoir plus d’informations sur le passage, le suivi ou l’exécution de sa commande, de questions sur les délais de livraison, les conditions d’exercice de son droit de rétractation ou toute autre question, le Client peut contacter STE NOV DISTY 
+Pour avoir plus d’informations sur le passage, le suivi ou l’exécution de sa commande, de questions sur les délais de livraison, les conditions d’exercice de son droit de rétractation ou toute autre question, le Client peut contacter STE NOV DISTY
 
 
 
@@ -189,10 +191,10 @@ Pour avoir plus d’informations sur le passage, le suivi ou l’exécution de s
 Le paiement des Produits doit être réalisé au moment de la passation de la commande en utilisant l’un des moyens suivants  :
 
 paiement sécurisé en ligne par carte bancaire (Carte visa, mastercard ou e-carte bancaire marocaine),
-chèque bancaire émis par une banque domiciliée au Maroc exclusivement et libellé à l’ordre de STE NOV DISTY,
+chèque bancaire émis par une banque domiciliée au Maroc exclusivement et libellé à l’ordre de STE NOV DISTY ,
 virement bancaire,
 débit du compte e-cadeau, en cas de solde créditeur.
-Les cartes bancaires et les chèques bancaires sont encaissés à la passation de la commande. Cette dernière n’est définitivement validée qu’après encaissement du prix total par STE NOV DISTY. En conséquence, toutes les Produits commandés demeurent la propriété de STE NOV DISTY, jusqu’au complet paiement du prix, le cas échéant augmenté des intérêts.
+Les cartes bancaires et les chèques bancaires sont encaissés à la passation de la commande. Cette dernière n’est définitivement validée qu’après encaissement du prix total par STE NOV DISTY . En conséquence, toutes les Produits commandés demeurent la propriété de STE NOV DISTY, jusqu’au complet paiement du prix, le cas échéant augmenté des intérêts.
 
  
 
@@ -239,15 +241,15 @@ Toutefois, le Client reconnaît avoir été informé que dépendamment du Produi
 
  
 
-Le Client reconnaît que la prestation de STE NOV DISTY pour l’acheminement de la commande s’arrête à la livraison à l’adresse indiquée dans sa commande. La livraison s’entend au pied de l’immeuble à l’adresse indiquée par le Client et en présence de celui-ci ou de toute personne habilitée à réceptionner la marchandise. Les livreurs ne sont pas tenus d’entrer dans le domicile du Client.  STE NOV DISTY ne procèdera donc pas à la livraison des commandes qui doivent être livrées en étage.
+Le Client reconnaît que la prestation de STE NOV DISTY  pour l’acheminement de la commande s’arrête à la livraison à l’adresse indiquée dans sa commande. La livraison s’entend au pied de l’immeuble à l’adresse indiquée par le Client et en présence de celui-ci ou de toute personne habilitée à réceptionner la marchandise. Les livreurs ne sont pas tenus d’entrer dans le domicile du Client.  STE NOV DISTY  ne procèdera donc pas à la livraison des commandes qui doivent être livrées en étage.
 
  
 
-Le Client est responsable de la fourniture de coordonnées claires et précises de livraison. A défaut STE NOV DISTY ne pourrait être tenue responsable de retards ou d’absence éventuels de livraison due à l’inexactitude de ces renseignements. En cas de nouvelle livraison due à une erreur dans ces renseignements, les frais de réexpédition sont facturés au Client.
+Le Client est responsable de la fourniture de coordonnées claires et précises de livraison. A défaut STE NOV DISTY  ne pourrait être tenue responsable de retards ou d’absence éventuels de livraison due à l’inexactitude de ces renseignements. En cas de nouvelle livraison due à une erreur dans ces renseignements, les frais de réexpédition sont facturés au Client.
 
-En cas d’absence du Client à son domicile lors de la livraison ou de la personne autorisée à réceptionner la commande, il incombe au Client de prévenir STE NOV DISTY dans au minimum cinq (5) jours ouvrés avant la date de livraison convenue. A défaut, le surcoût lié aux présentations supplémentaires sera facturé par le Site au Client.
+En cas d’absence du Client à son domicile lors de la livraison ou de la personne autorisée à réceptionner la commande, il incombe au Client de prévenir STE NOV DISTY  dans au minimum cinq (5) jours ouvrés avant la date de livraison convenue. A défaut, le surcoût lié aux présentations supplémentaires sera facturé par le Site au Client.
 
-Les délais de livraison annoncés par STE NOV DISTY constituent une obligation de moyen et non une obligation de résultat. STE NOV DISTY ne saurait être tenue responsable ni des aléas de livraison de ses fournisseurs ou ceux des transporteurs.
+Les délais de livraison annoncés par STE NOV DISTY  constituent une obligation de moyen et non une obligation de résultat. STE NOV DISTY  ne saurait être tenue responsable ni des aléas de livraison de ses fournisseurs ou ceux des transporteurs.
 
  
 
@@ -255,22 +257,22 @@ Les délais de livraison annoncés par STE NOV DISTY constituent une obligation 
 
  
 
-Le Client peut retourner les Produits commandés en exerçant son droit de rétractation, ou en cas de constatation de la non-conformité ou d’un vice affectant les Produits commandés selon les modalités décrites ci-après. En l’absence de respect des procédures et délais mentionnés aux présentes, STE NOV DISTY n’accèdera à aucune demande d’échange ou de remboursement émanant du Client.
+Le Client peut retourner les Produits commandés en exerçant son droit de rétractation, ou en cas de constatation de la non-conformité ou d’un vice affectant les Produits commandés selon les modalités décrites ci-après. En l’absence de respect des procédures et délais mentionnés aux présentes, STE NOV DISTY  n’accèdera à aucune demande d’échange ou de remboursement émanant du Client.
 
  
 
 En cas de retour anormal ou abusif ou renvoi du Produit sans numéro de retour, ce retour sera considéré comme non conforme et rejeté. 
 
-Le Client est libre de souscrire ou non une assurance en cas de perte, de vol ou de destruction de son colis, mais STE NOV DISTY ne prend pas en charge ces frais et ne saurait être tenue pour responsable de la non réception du colis retourné par le Client.
+Le Client est libre de souscrire ou non une assurance en cas de perte, de vol ou de destruction de son colis, mais STE NOV DISTY  ne prend pas en charge ces frais et ne saurait être tenue pour responsable de la non réception du colis retourné par le Client.
 
 
 
 
 8.1 Conformité du Produit à la commande :
 
-STE NOV DISTY demande au Client de vérifier impérativement en présence du livreur la conformité de son produit.
+STE NOV DISTY  demande au Client de vérifier impérativement en présence du livreur la conformité de son produit.
 
-Toute anomalie lors de la livraison devra être signalée, datée et signée sur le bordereau de livraison ainsi qu’à STE NOV DISTY à l’adresse email suivante contact@eprogram.store et ce,dans un délai maximum de 2 jours qui suivent celui de la réception.
+Toute anomalie lors de la livraison devra être signalée, datée et signée sur le bordereau de livraison ainsi qu’à STE NOV DISTY  à l’adresse email suivante contact@eprogram.store et ce,dans un délai maximum de 2 jours qui suivent celui de la réception.
 
 En cas de livraison non conforme à la commande du Client, ce dernier pourra par suite obtenir l’échange ou le remboursement du des produits à condition qu’ils soient retournés en l’état de livraison initial et selon les modalités de remboursement spécifiées par le Client sur le bon de retour parmi les modalités qui lui sont proposées.
 
@@ -282,11 +284,11 @@ Conformément à l’article 65 de la loi 31-08 relative à la protection du con
 
  
 
-Si la mise en jeu de la garantie légale est applicable, le Client peut poursuivre la résolution de la vente et la restitution du prix en adressant un courrier recommandé avec accusé de réception à STE NOV DISTY à l'adresse figurant en préambule des présentes CGU. S'il préfère conserver le(s) produit(s) concerné(s), il n'a droit à aucune diminution de prix.
+Si la mise en jeu de la garantie légale est applicable, le Client peut poursuivre la résolution de la vente et la restitution du prix en adressant un courrier recommandé avec accusé de réception à STE NOV DISTY  à l'adresse figurant en préambule des présentes CGU. S'il préfère conserver le(s) produit(s) concerné(s), il n'a droit à aucune diminution de prix.
 
  
 
-En cas de résolution de la vente par le Client, ce dernier doit restituer le produit concerné, tel qu'il l'a reçu (neuf, complet, dans son état et emballage d'origine après réception avec ses accessoires et ce qui en faisait partie). Les frais de réexpédition, en cas de mise en œuvre de la garantie légale par le Client, sont à la charge de STE NOV DISTY. 
+En cas de résolution de la vente par le Client, ce dernier doit restituer le produit concerné, tel qu'il l'a reçu (neuf, complet, dans son état et emballage d'origine après réception avec ses accessoires et ce qui en faisait partie). Les frais de réexpédition, en cas de mise en œuvre de la garantie légale par le Client, sont à la charge de STE NOV DISTY . 
 
 Le Client n'a droit à aucune restitution, ni diminution de prix, s'il ne peut restituer la chose dans les cas visés à l'article 562 du Dahir des Obligations et des Contrats.
 
@@ -296,17 +298,17 @@ Le Client dispose d’un délai de Sept (7) jours francs à compter de la date d
 
  
 
-Le Client devra effectuer sa demande de rétraction par courrier postal au siège social de STE NOV DISTY 33 rue Najib Mahfoud, Casablanca en envoyant le formulaire type de rétractation disponible ici :……….
+Le Client devra effectuer sa demande de rétraction par courrier postal au siège social de STE NOV DISTY  33 rue Najib Mahfoud, Casablanca en envoyant le formulaire type de rétractation disponible ici :……….
 
 ou en envoyant un email comprenant les mêmes informations que le formulaire type de rétractation à l’adresse contact@eprogram.store
 
  
 
-Lorsque le droit de rétractation est valablement exercé, STE NOV DISTY remboursera le Client le montant total payé par le Client (y compris les frais de livraison )au plus tard dans les quinze (15) jours suivant la date à laquelle le droit a été exercé et selon les modalités de remboursement spécifiées par le Client sur le bon de retour parmi les modalités qui lui sont proposées.  
+Lorsque le droit de rétractation est valablement exercé, STE NOV DISTY  remboursera le Client le montant total payé par le Client (y compris les frais de livraison )au plus tard dans les quinze (15) jours suivant la date à laquelle le droit a été exercé et selon les modalités de remboursement spécifiées par le Client sur le bon de retour parmi les modalités qui lui sont proposées.  
 
  
 
-En cas de rétractation par le Client, celui-ci devra renvoyer ou rendre le bien à STE NOV DISTY  à l’adresse mentionnée sur le Site, au 33 rue Najib Mahfoud, Casablanca sans délai et, en tout état de cause, au plus tard sept (7) jours après la réception du bien concerné. Les retours de biens réexpédiés au-delà de ce délai ne seront pas acceptés. Le produit concerné devra être restitué tel qu’il l’a reçu (neuf, non utilisé, complet, en parfait état de revente et dans son emballage d’origine après réception avec ses accessoires et documentation  (manuels d’utilisation, garantie etc…..,et tout ce qui en faisait partie) sans avoir subi une quelconque dépréciation résultant de manipulations autres que celles nécessaires pour établir la nature, les caractéristiques et le bon fonctionnement de ce ou ces biens et être accompagné de l’original de la facture de vente, dont le Client conservera une copie.
+En cas de rétractation par le Client, celui-ci devra renvoyer ou rendre le bien à STE NOV DISTY   à l’adresse mentionnée sur le Site, au 33 rue Najib Mahfoud, Casablanca sans délai et, en tout état de cause, au plus tard sept (7) jours après la réception du bien concerné. Les retours de biens réexpédiés au-delà de ce délai ne seront pas acceptés. Le produit concerné devra être restitué tel qu’il l’a reçu (neuf, non utilisé, complet, en parfait état de revente et dans son emballage d’origine après réception avec ses accessoires et documentation  (manuels d’utilisation, garantie etc…..,et tout ce qui en faisait partie) sans avoir subi une quelconque dépréciation résultant de manipulations autres que celles nécessaires pour établir la nature, les caractéristiques et le bon fonctionnement de ce ou ces biens et être accompagné de l’original de la facture de vente, dont le Client conservera une copie.
 
  
 
@@ -337,16 +339,16 @@ En cas de dommage causé par un défaut de sécurité du produit, le Client doit
 
  
 
-STE NOV DISTY ne sera pas responsable de la non-exécution totale ou partielle de ses obligations au titre du présent contrat, si cette non-exécution résulte, soit du Client, soit d’un tiers, soit d’un cas de force majeure telle que définie à l’article 269 du Dahir des Obligations et des Contrats.
+STE NOV DISTY  ne sera pas responsable de la non-exécution totale ou partielle de ses obligations au titre du présent contrat, si cette non-exécution résulte, soit du Client, soit d’un tiers, soit d’un cas de force majeure telle que définie à l’article 269 du Dahir des Obligations et des Contrats.
 
 
-La responsabilité de STE NOV DISTY ne saurait également être engagée pour tous les inconvénients ou dommages inhérents à l’utilisation du réseau Internet, notamment une rupture du service, une intrusion extérieure ou la présence de virus informatiques.
+La responsabilité de STE NOV DISTY  ne saurait également être engagée pour tous les inconvénients ou dommages inhérents à l’utilisation du réseau Internet, notamment une rupture du service, une intrusion extérieure ou la présence de virus informatiques.
 
 ## Article 10: Données personnelles
 
-Pour en savoir plus sur les engagements de STE NOV DISTY en matière de traitement et de protection des données à caractère personnel, le Client peut consulter la rubrique « Politique en matière de protection des données et de cookies ».
+Pour en savoir plus sur les engagements de STE NOV DISTY  en matière de traitement et de protection des données à caractère personnel, le Client peut consulter la rubrique « Politique en matière de protection des données et de cookies ».
 
-Les données recueillies sur le Site font l'objet d'un traitement par STE NOV DISTY en tant que responsable de traitement, destiné notamment à :
+Les données recueillies sur le Site font l'objet d'un traitement par STE NOV DISTY  en tant que responsable de traitement, destiné notamment à :
 
 l’enregistrement et la gestion du panier d’achat, des commandes et la fourniture des produits ou services commandés, 
 la comptabilité pour  l’émission des factures  Client correspondantes, 
@@ -365,7 +367,7 @@ Conformément à la loi n° 09-08 relative à la protection des personnes physiq
 
 Adresse mail : conformité@eprogram.ma  Téléphone : +212  (0) 701-110990
 
-Si le Client l’a préalablement accepté, il pourra recevoir des emails ou des SMS marketing de STE NOV DISTY dont il pourra se désinscrire conformément aux instructions figurant dans lesdits emails ou SMS.
+Si le Client l’a préalablement accepté, il pourra recevoir des emails ou des SMS marketing de STE NOV DISTY  dont il pourra se désinscrire conformément aux instructions figurant dans lesdits emails ou SMS.
 
 
 
@@ -376,13 +378,13 @@ Si le Client l’a préalablement accepté, il pourra recevoir des emails ou des
 L’intégralité de ce Site est protégée par les législations relatives à la propriété intellectuelle. Tous les droits de reproduction sont réservés.
 
 
-L’ensemble des textes composant les pages de ce site ne peut, conformément aux dispositions du code de la propriété intellectuelle, faire l’objet d’une quelconque représentation ou reproduction, intégrale ou partielle, sur quelque support que ce soit, sans l’autorisation expresse et préalable de STE NOV DISTY. De même, les marques, noms commerciaux et logos figurant sur ce site sont déposés. Leur reproduction totale ou partielle, effectuée à partir des éléments du site est prohibée.
+L’ensemble des textes composant les pages de ce site ne peut, conformément aux dispositions du code de la propriété intellectuelle, faire l’objet d’une quelconque représentation ou reproduction, intégrale ou partielle, sur quelque support que ce soit, sans l’autorisation expresse et préalable de STE NOV DISTY . De même, les marques, noms commerciaux et logos figurant sur ce site sont déposés. Leur reproduction totale ou partielle, effectuée à partir des éléments du site est prohibée.
 
  
 
 Le Client reconnait expressément que le Site, ses composants, options et fonctionnalités sont protégés par différents droits de propriété intellectuelle, comprenant des droits d’auteur (notamment sur les aspects visuels, graphiques ou littéraires du Site, ses photographies ou illustrations, son interface utilisateur, le ou les logiciel(s) sous-jacent(s) au Site, les critères d’organisation ou d’ordonnancement constitutifs d’une base de données), des droits sur les marques, des appellations et dénominations commerciales, nom de domaine ainsi qu’un savoir-faire, des méthodes et procédés constitutifs d’un travail créatif et résultant d’un investissement de la part de la Société.
 
-Ces droits appartiennent exclusivement à STE NOV DISTY (ou aux tiers intervenus dans la conception, la création et la mise en place du Site). Le Client n'acquiert aucun de ces droits et a comme unique faculté celle d'accéder au Site et de visualiser son contenu.
+Ces droits appartiennent exclusivement à STE NOV DISTY  (ou aux tiers intervenus dans la conception, la création et la mise en place du Site). Le Client n'acquiert aucun de ces droits et a comme unique faculté celle d'accéder au Site et de visualiser son contenu.
 
 Par conséquent, le Client s’interdit de reproduire, prélever, extraire, partager, faire de l’ingénierie inversée, compiler, décompiler, communiquer ou exploiter d’une quelconque façon tout ou partie du Site.
 
@@ -399,7 +401,7 @@ Les présentes conditions générales de vente sont soumises à la législation 
 
 
 
-## Article 14- Règlement des litiges
+## Article 14 - Règlement des litiges
 
 Les différends qui viendraient à se produire à propos de la validité, l'interprétation, l'exécution ou la cessation du présent contrat seront soumis à la compétence des tribunaux marocains, nonobstant pluralité de défendeurs et/ou appel en garantie, même pour les procédures d’urgence ou les procédures conservatoires en référé ou par requête.
 
