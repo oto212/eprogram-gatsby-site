@@ -37,7 +37,7 @@ const Footer = () => {
             {/* <a href="/#faq"><span>FAQ's</span></a> */}
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "5px", flexDirection: "column" }}>
-            <a href="https://calendly.com/souhaila-mouchtanim-eprogram/call?month=2023-02" rel="noreferrer" target="_blank">
+            <a href="https://calendly.com/reda-ammagui/30min" rel="noreferrer" target="_blank">
               <div className="calendar-container">
                 <img loading="lazy" alt="Calendar icon" src={CalendarIcon} />
                 <span>Prenez rendez-vous avec notre account manager</span>
